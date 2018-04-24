@@ -1,0 +1,176 @@
+@charset "UTF-8";
+@namespace h 'http://www.w3.org/1999/xhtml/';
+@namespace epub 'http://www.idpf.org/2007/ops';
+@font-face {
+    font-family: "braille";
+    src: url("../font/LouisLouis.ttf") format("TrueType");
+}
+
+/*  blitz — CSS framework for reflowable eBooks
+    Version 1 by Jiminy Panoz
+    Codename: Rock the Casbah
+    License: MIT (https://opensource.org/licenses/MIT)   */
+
+address,
+article,
+aside,
+blockquote,
+canvas,
+dd,
+details,
+div,
+dl,
+dt,
+figcaption,
+figure,
+footer,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hr,
+li,
+main,
+nav,
+ol,
+p,
+pre,
+section,
+summary,
+ul {
+    font-size: 1em;
+    font-weight: normal;
+    font-style: normal;
+    line-height: inherit;
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+}
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+    display: block;
+}
+
+dt,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre {
+    text-align: left;
+}
+
+nav[epub|type~='toc'] ol {
+    list-style: none !important;
+}
+
+nav[epub|type~='landmarks'],
+nav[epub|type~='page-list'] {
+    display: none;
+}
+
+a,
+abbr,
+b,
+bdi,
+bdo,
+cite,
+code,
+data,
+del,
+dfn,
+em,
+i,
+ins,
+kbd,
+mark,
+q,
+rp,
+rt,
+rtc,
+ruby,
+s,
+samp,
+small,
+span,
+strong,
+sub,
+sup,
+time,
+var {
+    font-size: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    color: inherit;
+}
+
+q {
+    quotes: none;
+}
+
+aside> :last-child,
+body> :last-child,
+body>section> :last-child {
+    margin-bottom: 0;
+}
+
+* {
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    hyphens: none;
+    -ms-hyphens: none;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-size: 1em;
+    font-family: sans-serif;
+}
+
+@page {
+    padding: 3em;
+}
+
+.braille {
+    font-family: "braille";
+}
+
+h1 {
+    font-size: 1.7em;
+    font-weight: bold;
+    margin-top: 2em;
+    line-height: 1.5em;
+}
+
+h2 {
+    font-size: 1.4em;
+    line-height: 1.5em;
+}
+
+p {
+    margin-top: 1.5em;
+    line-height: 1.5em;
+}
+
+ul, li {
+    line-height: 1.5em;
+    list-style: square;
+}
