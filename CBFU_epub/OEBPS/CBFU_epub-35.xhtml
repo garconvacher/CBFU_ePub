@@ -1,435 +1,110 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="fr-FR" xml:lang="fr-FR">
-
-<head>
-	<title>CBFU_epub-35</title>
-	<link href="css/ePub_CBFU.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body id="CBFU_epub-35">
-	<div>
-		<h2 id="toc-epubtools-65">3.1 Les éléments de mise en page braille</h2>
-		<p class="Body-Text">En braille, quatre modes sont utilisés pour exprimer la mise en page de l’imprimé :</p>
-		<ul>
-			<li>
-				<span>le mode centrage, principalement utilisé pour les titres de premier et de deuxième niveaux ainsi que pour les pages de
-					titre ;</span>
-			</li>
-			<li>
-				le mode paragraphe ou alinéa, principalement utilisé pour les paragraphes ordinaires et pour les notes (en retrait) ;
-			</li>
-			<li>
-				le mode poésie ou liste, principalement utilisé pour les vers, les listes, les tables des matières, etc. ;
-			</li>
-			<li>
-				<span>le mode bloc, principalement utilisé pour les titres de troisième et de quatrième niveaux ainsi que pour les signatures
-					et les indications de source.</span>
-			</li>
-		</ul>
-		<p class="Body-Text">Les modes paragraphe, liste et bloc s’articulent à partir de la marge de gauche. Leur utilisation fait appel à des repères
-			fixes appelés tabulations. En braille, ces tabulations sont également réparties de deux cellules en deux cellules. Ainsi,
-			la position des quatre premières tabulations se trouve aux 1
-			re, 3
-			e, 5
-			e et 7
-			e cellules.</p>
-		<p class="Body-Text">
-			Remarque : dans cette troisième partie du Code, pour préciser la position exacte que doit prendre un élément de
-			texte donné, on indique, le cas échéant, le mode de présentation à utiliser suivi du numéro de la cellule à partir de
-			laquelle il convient de débuter la transcription de la première ligne braille de cet élément. De plus, pour un élément
-			présenté en mode paragraphe ou en mode liste, on ajoute, après un trait d’union, le numéro de la cellule où se poursuit
-			le texte, si la transcription nécessite plus d’une ligne braille. Par exemple, l’expression « Le texte d’une note de bas
-			de page est disposé en paragraphe 7-5 » signifie que la première ligne du texte commence à la cellule 7, tandis que les
-			lignes suivantes commencent à la cellule 5.</p>
-		<p>
-
-		</p>
-		<h3 id="toc-epubtools-66">a) Mode centrage</h3>
-		<p class="Body-Text">Le mode centrage est utilisé principalement dans les pages de titre et pour les titres de premier et de deuxième niveaux
-			(voir 3.2 « Les titres »).</p>
-		<p class="Body-Text">Pour centrer une ligne, on réserve un minimum de trois cellules vides à chacune de ses extrémités, sauf dans le cas des
-			lignes centrées d’une page de titre (voir 3.6 a) « Page de titre »). Quand une information centrée nécessite plus d’une
-			ligne pour sa transcription, on la répartit de façon équilibrée sur ces lignes.</p>
-		<p class="GAUCHE">
-			<span id="page59" title="59" epub:type="pagebreak" role="doc-pagebreak"></span>
-		</p>
-		<p class="Body-Text">Exemple 1 : titre centré</p>
-		<p class="Body-Text">
-			Les pays d’Amérique du Sud
-		</p>
-		<p class="Body-Text">
-			<span class="braille">⠨⠇⠑⠎⠀⠏⠁⠽⠎</span>
-		</p>
-		<p class="Body-Text">
-			<span class="braille">⠙⠄⠨⠁⠍⠿⠗⠊⠟⠥⠑⠀⠙⠥⠀⠨⠎⠥⠙</span>
-		</p>
-		<p class="Body-Text">et non</p>
-		<p>
-			<span class="braille">⠨⠇⠑⠎⠀⠏⠁⠽⠎⠀⠙⠄⠨⠁⠍⠿⠗⠊⠟⠥⠑⠀⠙⠥</span>
-		</p>
-		<p>
-			<span class="braille">⠨⠎⠥⠙</span>
-		</p>
-		<h3 id="toc-epubtools-67">
-			b) Mode paragraphe ou alinéa</h3>
-		<p class="Body-Text">Le début d’un paragraphe, signalé dans le document d’origine par une ligne vide ou un alinéa, est indiqué en braille par
-			un retrait d’une tabulation à la première ligne. Le texte commence donc à la troisième cellule et se poursuit à la marge,
-			pour les lignes suivantes. On dit ainsi qu’il est présenté en 3-1. Le paragraphe est le mode de présentation le plus courant
-			et c’est celui que l’on privilégie dans la majorité des cas. Généralement, les paragraphes s’enchaînent sans ligne vide.</p>
-		<p class="Body-Text">Pour certains passages, comme une note de bas de page, une note du transcripteur ou une citation, le paragraphe peut être
-			déplacé de deux cellules en deux cellules vers la droite, sur les tabulations, pour une présentation en 5-3 ou en 7-5
-			(voir 3.9</p>
-		<p class="Body-Text">« Les notes de bas de page et notes de fin »). Ce procédé peut également être utilisé pour répondre à d’autres besoins
-			de mise en page.</p>
-		<p class="Body-Text">Dans certains cas particuliers tels qu’une lettre, un poème ou une citation insérés dans une suite de paragraphes ordinaires,
-			on peut utiliser une ligne vide pour isoler cet élément du texte principal.</p>
-		<p class="Body-Text">Lorsqu’un grand espace sépare deux paragraphes dans le document d’origine, pour marquer un changement de contexte, d’atmosphère,
-			d’époque, etc., le transcripteur rend compte de l’ampleur de cet espace en laissant une ou deux lignes vides entre ces
-			deux paragraphes.</p>
-		<h3 id="toc-epubtools-68">
-			c) Mode poésie ou liste</h3>
-		<p class="Body-Text">Ce mode est utilisé notamment pour des poèmes, des listes et des tables des matières. Lorsqu’il s’agit de poésie ou de
-			liste simple, chaque vers ou chaque élément commence à la marge de gauche et se poursuit à la ligne suivante, s’il y a
-			lieu, avec un retrait de deux cellules. On dit alors que le texte est présenté 1-3.</p>
-		<p class="GAUCHE">
-			<span id="page60" title="60" epub:type="pagebreak" role="doc-pagebreak"></span>
-		</p>
-		<p class="Body-Text">Exemple 2 : poésie ou liste simple</p>
-		<p>
-			Le Vaisseau d’or
-		</p>
-		<p>
-			C’était un grand Vaisseau taillé dans l’or massif.
-		</p>
-		<p>
-			Ses mâts touchaient l’azur sur des mers inconnues ;
-		</p>
-		<p>
-			La Cyprine d’amour, cheveux épars, chairs nues,
-		</p>
-		<p>S’étalait à sa proue, au soleil excessif.
-			[Émile N
-			ELLIGAN
-			, 
-			Le vaisseau d’or
-			]
-		</p>
-		<div class="_idGenObjectLayout-1">
-			<div id="_idContainer001">
-				<p class="Body-Text">Le Vaisseau d’or</p>
-				<p class="Body-Text">C’était un grand Vaisseau taillé dans l’or massif.</p>
-				<p class="Body-Text">Ses mâts touchaient l’azur sur des mers inconnues ; La Cyprine d’amour, cheveux épars, chairs nues, S’étalait à sa proue,
-					au soleil excessif.</p>
-			</div>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+	<head>
+		<title>CBFU_epub-35</title>
+		<link href="css/idGeneratedStyles.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body id="CBFU_epub-35" lang="fr-FR" xml:lang="fr-FR">
+		<div class="_idGenObjectStyleOverride-1">
+			<h2 class="Heading-2"><span class="pages _idGenCharOverride-5">72</span>3.4 La pagination</h2>
+			<p class="Body-Text ParaOverride-1">Tout document écrit en braille comporte une pagination braille. Il peut comporter en outre une « pagination de référence » qui est la pagination du document d’origine.</p>
+			<h3 class="Heading-3"><a id="_idTextAnchor069"></a>a) Pagination braille</h3>
+			<p class="Body-Text ParaOverride-1">Quand seule la pagination braille est utilisée dans un document, le numéro de page est indiqué dans le coin supérieur droit (usage en vigueur en France, notamment), ou dans le coin inférieur droit. Dans le cas où du texte figure sur la même ligne que ce numéro, il en est séparé par au moins trois cellules vides.</p>
+			<p class="Body-Text ParaOverride-1">Dans un volume braille, la pagination peut courir sa ns interruption de la page de titre jusqu’à la fin du volume. Une autre pratique consiste à faire précéder le numéro de page d’un préfixe, constitué d’une lettre unique, pour certaines parties du volume. Les préfixes les plus usuels sont <em class="emphase">p</em><span class="CharOverride-36"> </span>pour « pages préliminaires », <em class="emphase">n</em><span class="CharOverride-36"> </span>pour « notes » et <em class="emphase">t</em><span class="CharOverride-36"> </span>pour « table des matières », mais on peut en utiliser d’autres comme <em class="emphase">g</em><span class="CharOverride-36"> </span>pour « glossaire » ou <em class="emphase">s</em><span class="CharOverride-36"> </span>pour « supplément ». Ils facilitent le repérage de ces pages quand le lecteur a besoin de s’y référer en cours de lecture.</p>
+			<p class="Body-Text ParaOverride-1">Si la transcription d’un ouvrage nécessite plus d’un volume braille, la numérotation recommence à 1 au début de chaque volume – cependant, le numéro de la première page est généralement omis. Il en va de même pour les pages préfixées.</p>
+			<p class="Body-Text ParaOverride-1"><span class="pages">73</span>Exemple 7 : pagination braille préfixée dans le coin inférieur droit</p>
+			<p class="Body-Text ParaOverride-1"><img class="_idGenObjectAttribute-1" src="image/Image1174.png" alt="" /></p>
+			<p class="Normal ParaOverride-1"><span class="CharOverride-3">[Alessandro B</span><span class="CharOverride-27">ARICCO</span><span class="CharOverride-3">, </span><cite class="oeuvre _idGenCharOverride-11">Châteaux de la colère</cite><span class="CharOverride-3">, Paris, Gallimard, 2003.]</span></p>
+			<p class="BrailleDirectpara"><span class="CharOverride-6">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠆⠨⠟⠥⠁⠞⠗⠊⠮⠍⠑</span></p>
+			<p class="BrailleDirectpara"><span class="CharOverride-6">⠀⠀⠀⠀⠀⠀⠀⠀⠙⠑⠀⠉⠕⠥⠧⠑⠗⠞⠥⠗⠑⠰⠄</span></p>
+			<p class="BrailleDirectpara"><span class="CharOverride-6">⠀⠀⠀⠀⠨⠁⠇⠑⠎⠎⠁⠝⠙⠗⠕⠀⠨⠃⠁⠗⠊⠉⠉⠕</span></p>
+			<p class="BrailleDirectpara"><span class="CharOverride-6">⠀⠀⠀⠀⠨⠉⠓⠡⠞⠑⠁⠥⠀⠙⠑⠀⠇⠁⠀⠉⠕⠇⠮⠗⠑</span></p>
+			<p class="BrailleDirectpara"><span class="CharOverride-6">⠀⠀⠀⠀⠒⠸⠨⠞⠗⠁⠙⠥⠊⠞⠀⠙⠑⠀⠇⠄⠊⠞⠁⠇⠊⠑⠝</span></p>
+			<p class="BrailleDirectpara"><span class="CharOverride-6">⠀⠀⠀⠀⠏⠁⠗⠀⠨⠋⠗⠁⠝⠯⠕⠊⠎⠑⠀⠨⠃⠗⠥⠝</span></p>
+			<p class="BrailleDirectpara"><span class="CharOverride-6">⠀⠀⠨⠧⠑⠗⠎⠀⠇⠑⠀⠍⠊⠇⠊⠑⠥⠀⠙⠥⠀⠨⠨⠭⠊⠭⠈⠑</span></p>
+			<p class="BrailleDirectpara"><span class="CharOverride-6">⠎⠊⠮⠉⠇⠑⠂⠀⠙⠁⠝⠎⠀⠇⠁⠀⠏⠑⠞⠊⠞⠑⠀⠧⠊⠇⠇⠑</span></p>
+			<p class="BrailleDirectpara"><span class="CharOverride-6">⠊⠍⠁⠛⠊⠝⠁⠊⠗⠑⠀⠙⠑⠀⠨⠟⠥⠊⠝⠝⠊⠏⠁⠅⠂⠀⠧⠊⠞</span></p>
+			<p class="BrailleDirectpara"><span class="CharOverride-6">⠞⠕⠥⠞⠑⠀⠥⠝⠑⠀⠉⠕⠍⠍⠥⠝⠁⠥⠞⠿⠀⠗⠁⠎⠎⠑⠍⠤</span></p>
+			<p class="BrailleDirectpara"><span class="pages _idGenCharOverride-12">74</span><span class="CharOverride-6">⠃⠇⠿⠑⠀⠁⠥⠞⠕⠥⠗⠀⠙⠑⠀⠇⠁⠀⠞⠗⠮⠎⠀⠃⠑⠇⠇⠑</span></p>
+			<p class="BrailleDirectpara"><span class="CharOverride-6">⠨⠚⠥⠝⠀⠨⠗⠑⠊⠓⠇⠂⠀⠙⠕⠝⠞⠀⠞⠕⠥⠞⠑⠀⠇⠁</span></p>
+			<p class="BrailleDirectpara"><span class="CharOverride-6">⠧⠊⠇⠇⠑⠀⠁⠙⠍⠊⠗⠑⠀⠇⠑⠎⠀⠇⠮⠧⠗⠑⠎⠂⠀⠑⠞⠀⠙⠑</span></p>
+			<p class="BrailleDirectpara"><span class="CharOverride-6">⠎⠕⠝⠀⠍⠁⠗⠊⠀⠍⠕⠝⠎⠊⠑⠥⠗⠀⠨⠗⠑⠊⠓⠇⠂⠀⠙⠊⠤</span></p>
+			<p class="BrailleDirectpara"><span class="CharOverride-6">⠗⠑⠉⠞⠑⠥⠗⠀⠙⠑⠀⠇⠁⠀⠋⠁⠃⠗⠊⠟⠥⠑⠀⠙⠑⠀⠧⠑⠗⠤</span></p>
+			<p class="BrailleDirectpara"><span class="CharOverride-6">⠗⠑⠲⠀⠘⠦⠲⠲⠲⠴⠃</span></p>
+			<p class="BrailleDirectpara"><span class="CharOverride-6">⠨⠏⠑⠓⠝⠞⠂⠀⠎⠕⠝⠀⠚⠑⠥⠝⠑⠀⠁⠎⠎⠊⠎⠞⠁⠝⠞⠂</span></p>
+			<p class="BrailleDirectpara"><span class="CharOverride-6">⠑⠝⠋⠁⠝⠞⠀⠞⠗⠕⠥⠧⠿⠀⠞⠕⠥⠚⠕⠥⠗⠎⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠏⠠⠩</span></p>
+			<p class="Body-Text ParaOverride-1">Exemple 8 : pagination braille dans le coin supérieur droit</p>
+			<p class="Body-Text ParaOverride-1"><span lang="en-US" xml:lang="en-US"><img class="_idGenObjectAttribute-2" src="image/Image1181.png" alt="" /></span></p>
+			<p class="BrailleDirectpara">⠀⠀⠨⠏⠑⠝⠙⠁⠝⠞⠀⠞⠗⠕⠊⠎⠀⠁⠝⠝⠿⠑⠎⠂⠀⠀⠀⠀⠀⠀⠠⠻⠪</p>
+			<p class="BrailleDirectpara">⠨⠇⠕⠥⠊⠎⠀⠨⠃⠗⠁⠊⠇⠇⠑⠀⠉⠕⠝⠝⠁⠩⠞⠗⠁⠂⠀⠙⠑</p>
+			<p class="BrailleDirectpara">⠝⠕⠥⠧⠑⠁⠥⠂⠀⠇⠑⠎⠀⠚⠕⠊⠑⠎⠀⠙⠑⠀⠇⠄⠑⠝<span class="CharOverride-40">⠤</span></p>
+			<p class="BrailleDirectpara">⠎⠑⠊⠛⠝⠑⠍⠑⠝⠞⠲⠀⠘⠦⠲⠲⠲⠴⠃</p>
+			<h3 class="Heading-3"><span class="pages _idGenCharOverride-7">75</span>b) Pagination de référence</h3>
+			<p class="Body-Text ParaOverride-1">On appelle « pagination de référence » les numéros que portent les pages du document d’origine. Quand un document braille est la transcription d’un document paginé, il peut comporter les deux types de numérotation des pages : pagination braille et pagination de référence.</p>
+			<p class="Body-Text ParaOverride-1">Dans la transcription braille, l’indication de la pagination de référence ne débute qu’après les pages préliminaires (pages de couverture, notes du transcripteur, etc.) (voir 3.6 « Les pages préliminaires »).</p>
+			<p class="Body-Text ParaOverride-1">Deux méthodes sont utilisées, dans la francophonie, pour indiquer la pagination de référence :</p>
+			<p class="Normal ParaOverride-1"><b class="gras _idGenCharOverride-9">Pr<a id="_idTextAnchor070"></a>emière méthode</b></p>
+			<ul>
+				<li class="liste ParaOverride-12"><b class="gras _idGenCharOverride-9">N.B. </b><span class="CharOverride-3">: la méthode décrite ci-dessous n’est pas en usage en France.</span></li>
+			</ul>
+			<p class="Body-Text ParaOverride-1">Selon ce procédé, le numéro de la page de référence est placé dans le coin supérieur droit et le numéro de la page braille dans le coin inférieur droit. Trois cellules vides au moins sont laissées entre le texte et ces numéros de pages.</p>
+			<p class="Body-Text ParaOverride-1">Lorsqu’un changement de page braille survient avant la fin de la page du document d’origine, le numéro de page de référence porte, sur la nouvelle page braille, la lettre <em class="emphase">a</em><span class="CharOverride-36"> </span>en préfixe. Si un nouveau changement de page braille se produit, le préfixe devient <em class="emphase">b</em>, et ainsi de suite pour toutes les pages braille nécessaires à la transcription de cette page du document d’origine.</p>
+			<p class="Body-Text ParaOverride-1">À l’endroit précis où se produit le changement de page de référence, on utilise, à l’intérieur de la page braille, un indicateur constitué d’une ligne entière de traits de conduite <span class="BrailleDirect CharOverride-6">⠤</span>(points 3-6) qui se termine, sans espace, par le numéro de la nouvelle page de référence. En outre, afin de prévenir le lecteur qu’une nouvelle page de référence commence sur la page braille en cours, le suffixe <span class="BrailleDirect CharOverride-6">⠐</span>(point 5) est ajouté à la pagination de référence placée dans le coin supérieur droit de cette page braille.</p>
+			<p class="Body-Text ParaOverride-1">L’indicateur de changement de page de référence est omis lorsqu’une nouvelle page du document d’origine commence en même temps qu’une nouvelle page braille<span class="CharOverride-41">.</span></p>
+			<p class="Body-Text ParaOverride-1">Cette omission est également de mise lorsque le texte d’une page du document d’origine se termine sur l’avant-dernière ligne de la page braille ; la dernière ligne est alors laissée vide, la transcription se poursuivant sur la nouvelle page braille. Cette coïncidence peut également être provoquée par le transcripteur lorsqu’il force un changement de page braille pour amorcer une nouvelle page du document d’origine.</p>
+			<p class="Body-Text ParaOverride-1"><span class="pages">76</span>Ces changements simultanés de page de référence et de page braille sont signalés au lecteur par l’absence de préfixe au numéro de page de référence figurant dans le coin supérieur droit de la page braille.</p>
+			<p class="Body-Text ParaOverride-1">Lorsque le dernier mot d’une page de l’imprimé est coupé, cette coupure est ignorée et l’indicateur de changement de page de référence est placé immédiatement après ce mot. Font exception à cette règle les textes à lignes numérotées où le mot reste coupé dans la transcription braille (voir 3.13 b) « Numérotation braille dans la marge de droite »).</p>
+			<p class="Body-Text ParaOverride-1">Exemple 9 : pagination de référence avec changement de numéro de page dans la page braille en cours (première méthode)</p>
+			<p class="Body-Text ParaOverride-1"><img class="_idGenObjectAttribute-3" src="image/Image1189.png" alt="" /></p>
+			<p class="Normal ParaOverride-1"><span class="CharOverride-3">[Beverley B</span><span class="CharOverride-27">IRCH</span><span class="CharOverride-3">, </span><cite class="oeuvre _idGenCharOverride-11">Louis Braille : l’inventeur du langage qui permit aux aveugles de lire</cite><span class="CharOverride-3">]</span></p>
+			<p class="BrailleDirectpara"><span class="CharOverride-6">⠘⠦⠲⠲⠲⠴⠃⠀⠨⠊⠇⠀⠝⠑⠀⠏⠕⠥⠧⠁⠊⠞⠀⠀⠀⠀⠀⠀⠀⠠⠹⠡⠐</span></p>
+			<p class="BrailleDirectpara"><span class="CharOverride-6">⠥⠞⠊⠇⠊⠎⠑⠗⠀⠎⠕⠝⠀⠏⠗⠕⠉⠿⠙⠿⠀⠙⠑⠀⠎⠊⠭</span></p>
+			<p class="BrailleDirectpara"><span class="CharOverride-6">⠏⠕⠊⠝⠞⠎⠂⠀⠟⠥⠊⠀⠁⠥⠗⠁⠊⠞⠀⠑⠭⠊⠛⠿⠀⠇⠄⠁⠏</span><span class="CharOverride-42">⠤</span></p>
+			<p class="BrailleDirectpara"><span class="CharOverride-6">⠏⠗⠑⠝⠞⠊⠎⠎⠁⠛⠑⠀⠙⠥⠀⠃⠗⠁⠊⠇⠇⠑⠀⠏⠁⠗⠀⠇⠑⠎</span></p>
+			<p class="BrailleDirectpara"><span class="CharOverride-6">⠏⠑⠗⠎⠕⠝⠝⠑⠎⠀⠙⠕⠥⠿⠑⠎⠀⠙⠑⠀⠇⠁⠀⠧⠥⠑⠲</span></p>
+			<p class="BrailleDirectpara"><span class="CharOverride-6">⠊⠇⠀⠋⠁⠇⠇⠁⠊⠞⠀⠙⠕⠝⠉⠀⠥⠝⠀⠎⠽⠎⠞⠮⠍⠑</span></p>
+			<p class="BrailleDirectpara"><span class="CharOverride-6">⠟⠥⠊⠀⠏⠑⠗⠍⠑⠞⠞⠑⠀⠷⠀⠥⠝⠀⠁⠧⠑⠥⠛⠇⠑⠀⠙⠑</span></p>
+			<p class="BrailleDirectpara"><span class="pages _idGenCharOverride-12">77</span><span class="CharOverride-6">⠞⠗⠁⠉⠑⠗⠀⠙⠑⠎⠀⠇⠑⠞⠞⠗⠑⠎⠀⠗⠑⠉⠕⠝⠝⠁⠊⠎</span><span class="CharOverride-42">⠤</span></p>
+			<p class="BrailleDirectpara"><span class="CharOverride-6">⠎⠁⠃⠇⠑⠎</span></p>
+			<p class="BrailleDirectpara"><span class="CharOverride-6">⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠠⠹⠣</span></p>
+			<p class="BrailleDirectpara"><span class="CharOverride-6">⠷⠀⠇⠁⠀⠧⠥⠑⠂⠀⠙⠁⠝⠎⠀⠇⠄⠁⠇⠏⠓⠁⠃⠑⠞</span></p>
+			<p class="BrailleDirectpara"><span class="CharOverride-6">⠕⠗⠙⠊⠝⠁⠊⠗⠑⠲⠀⠘⠦⠲⠲⠲⠴⠃</span></p>
+			<p class="Body-Text ParaOverride-1">Lorsque plusieurs changements de page de référence surviennent au cours de la même page braille, on indique le premier et le dernier numéros de ces pages, reliés par un trait d’union. Dans ce cas, seul le dernier numéro de page est repris au haut de la page braille suivante, précédé du préfixe alphabétique.</p>
+			<p class="Body-Text ParaOverride-1"><span class="pages">78</span><span lang="en-US" xml:lang="en-US"><img class="_idGenObjectAttribute-4" src="image/Image1198.png" alt="" /><img class="_idGenObjectAttribute-5" src="image/Image1205.png" alt="" /></span>Exemple 10 : pagination de référence double (première méthode)</p>
+			<p class="Body-Text ParaOverride-1"><img class="_idGenObjectAttribute-6" src="image/Image1213.png" alt="" /></p>
+			<p class="Normal ParaOverride-1"><span class="CharOverride-3">[Yann M</span><span class="CharOverride-27">ARTEL</span><span class="CharOverride-3">, </span><cite class="oeuvre _idGenCharOverride-11">L’histoire de Pi</cite><span class="CharOverride-3">]</span></p>
+			<p class="Body-Text ParaOverride-1"><span class="pages">79</span>Haut de la première page braille</p>
+			<p class="BrailleDirectpara">⠀⠀⠀⠀⠀⠀⠨⠏⠗⠑⠍⠊⠮⠗⠑⠀⠏⠁⠗⠞⠊⠑⠀⠠⠡⠱⠤⠡⠻</p>
+			<p class="BrailleDirectpara">⠀⠀⠀⠀⠨⠞⠕⠗⠕⠝⠞⠕⠀⠑⠞⠀⠨⠏⠕⠝⠙⠊⠉⠓⠿⠗⠽</p>
+			<p class="BrailleDirectpara">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠨⠉⠓⠁⠏⠊⠞⠗⠑⠀⠠⠡</p>
+			<p class="BrailleDirectpara">⠀⠀⠨⠍⠑⠎⠀⠎⠕⠥⠋⠋⠗⠁⠝⠉⠑⠎⠀⠍⠄⠕⠝⠞⠀⠇⠁⠊⠎⠤</p>
+			<p class="BrailleDirectpara">⠎⠿⠀⠞⠗⠊⠎⠞⠑⠀⠑⠞⠀⠍⠕⠗⠕⠎⠑⠲</p>
+			<p class="BrailleDirectpara">⠀⠀⠨⠇⠑⠎⠀⠿⠞⠥⠙⠑⠎⠀⠑⠞⠀⠇⠁⠀⠏⠗⠁⠞⠊⠟⠥⠑</p>
+			<p class="BrailleDirectpara">⠘⠦⠲⠲⠲⠴⠃</p>
+			<p class="Body-Text ParaOverride-1">Haut de la deuxième page braille</p>
+			<p class="BrailleDirectpara">⠵⠕⠕⠇⠕⠛⠊⠑⠲⠀⠨⠍⠕⠝⠀⠍⠿⠍⠕⠊⠗⠑⠀⠀⠀⠀⠁⠠⠡⠻</p>
+			<p class="BrailleDirectpara">⠙⠑⠀⠟⠥⠁⠞⠗⠊⠮⠍⠑⠀⠁⠝⠝⠿⠑⠀⠘⠦⠲⠲⠲⠴⠃</p>
+			<h3 class="Heading-3 ParaOverride-2"><b class="gras _idGenCharOverride-13">Secon<a id="_idTextAnchor071"></a>de méthode</b></h3>
+			<p class="Body-Text ParaOverride-1">Selon ce procédé, la première ligne de la page braille est réservée aux indications de numéros de pages. Le numéro de la page de référence est centré ou placé dans le coin supérieur gauche et le numéro de la page braille dans le coin supérieur droit.</p>
+			<p class="Body-Text ParaOverride-1">Lorsqu’un changement de page braille survient avant la fin de cette page du document d’origine, le numéro de page de référence porte, sur la nouvelle page braille, la lettre <span class="CharOverride-36">a </span>en suffixe ou en préfixe. Si un nouveau changement de page braille se produit, le suffixe, ou préfixe, devient <span class="CharOverride-36">b</span>, et ainsi de suite pour toutes les pages braille nécessaires à la transcription de cette page du document d’origine.</p>
+			<p class="Body-Text ParaOverride-1">Lorsque le changement de page du document d’origine survient en même temps qu’un changement de page braille, le numéro de page de référence est indiqué sans suffixe sur la première ligne de la page braille. Lorsque le changement de page du document d’origine survient dans le cours d’une page braille, à l’endroit précis où s’opère ce changement, on utilise l’indicateur de changement de page <span class="BrailleDirect CharOverride-6">⠂⠒</span>(points 5, 2-5) prévu au tableau 3 du présent Code. Ce symbole est précédé et suivi d’un espace. Si ce changement de page de référence précède un titre ou un nouveau paragraphe, l’indicateur est reporté à la ligne écrite suivante.</p>
+			<p class="Body-Text ParaOverride-1"><span class="pages">80</span>Avec cette méthode, l’indicateur de changement de page de référence matérialisé par un trait continu sur toute la largeur de la page braille peut aussi être utilisé, comme dans l’exemple 9 « Pagination de référence avec changement de numéro de page dans la page braille en cours (première méthode) ».</p>
+			<p class="Body-Text ParaOverride-1">Lorsque plusieurs changements de page de référence surviennent au cours de la même page braille, on indique le premier et le dernier numéros de page, reliés par un trait d’union.</p>
+			<p class="Body-Text ParaOverride-1">Exemple 11 : pagination de référence avec changement de numéro de page dans la page braille en cours (seconde méthode)</p>
+			<p class="Body-Text ParaOverride-1"><span lang="en-US" xml:lang="en-US"><img class="_idGenObjectAttribute-7" src="image/Image1221.png" alt="" /></span></p>
+			<p class="Normal ParaOverride-1"><span class="CharOverride-3">[Yann Martel, </span><cite class="oeuvre _idGenCharOverride-11">L’histoire de Pi</cite><span class="CharOverride-3">]</span></p>
+			<p class="BrailleDirectpara"><span class="BrailleDirect">⠀⠀⠀⠀⠀⠀⠀</span><span class="BrailleDirect">⠀⠀⠀⠀⠀⠀⠀</span><span class="pages _idGenCharOverride-12">81</span>⠠⠱⠳⠉⠤⠱⠪⠀⠀⠀⠀⠀⠀⠀⠀⠠⠩⠡</p>
+			<p class="BrailleDirectpara">⠙⠁⠝⠛⠑⠗⠑⠥⠭⠀⠟⠥⠑⠀⠏⠕⠥⠗⠀⠉⠑⠥⠭⠀⠟⠥⠊⠀⠎⠑</p>
+			<p class="BrailleDirectpara">⠏⠇⠁⠉⠑⠝⠞⠀⠑⠝⠞⠗⠑⠀⠑⠥⠭⠀⠑⠞⠀⠉⠑⠀⠟⠥⠄⠊⠇⠎</p>
+			<p class="BrailleDirectpara">⠞⠊⠑⠝⠝⠑⠝⠞⠀⠁⠇⠕⠗⠎⠀⠏⠕⠥⠗⠀⠥⠝⠀⠇⠊⠑⠥</p>
+			<p class="BrailleDirectpara">⠎⠱⠗⠲</p>
+			<p class="BrailleDirectpara">⠐⠒⠀⠨⠉⠓⠁⠏⠊⠞⠗⠑⠀⠠⠡⠡</p>
+			<p class="BrailleDirectpara">⠀⠀⠨⠏⠗⠑⠝⠕⠝⠎⠀⠏⠁⠗⠀⠑⠭⠑⠍⠏⠇⠑⠀⠇⠑⠀⠉⠁⠎</p>
+			<p class="BrailleDirectpara">⠙⠄⠥⠝⠑⠀⠋⠑⠍⠑⠇⠇⠑⠀⠇⠿⠕⠏⠁⠗⠙⠀⠝⠕⠊⠗⠑</p>
+			<p class="BrailleDirectpara">⠟⠥⠊⠀⠎⠄⠿⠉⠓⠁⠏⠏⠑⠀⠙⠥⠀⠵⠕⠕⠀⠙⠑⠀⠨⠵⠥⠤</p>
+			<p class="BrailleDirectpara">⠗⠊⠉⠓⠀⠏⠑⠝⠙⠁⠝⠞⠀⠇⠄⠓⠊⠧⠑⠗⠎⠀⠙⠑⠀⠠⠡⠪⠩⠩⠲</p>
+			<p class="BrailleDirectpara">⠘⠦⠲⠲⠲⠴⠃</p>
 		</div>
-		<p>
-			<span class="braille">⠨⠇⠑⠀⠨⠧⠁⠊⠎⠎⠑⠁⠥⠀⠙⠄⠕⠗</span>
-		</p>
-		<p>
-			<span class="braille">⠨⠉⠄⠿⠞⠁⠊⠞⠀⠥⠝⠀⠛⠗⠁⠝⠙⠀⠨⠧⠁⠊⠎⠎⠑⠁⠥⠀⠞⠁⠊⠇⠇⠿⠀⠙⠁⠝⠎⠀⠇⠄⠕⠗⠀⠍⠁⠎⠎⠊⠋⠲</span>
-		</p>
-		<p>
-			<span class="braille">⠨⠎⠑⠎⠀⠍⠡⠞⠎⠀⠞⠕⠥⠉⠓⠁⠊⠑⠝⠞⠀⠇⠄⠁⠵⠥⠗⠀⠎⠥⠗⠀⠙⠑⠎⠀⠍⠑⠗⠎⠀⠊⠝⠉⠕⠝⠝⠥⠑⠎⠀⠆</span>
-		</p>
-		<div class="_idGenObjectLayout-1">
-			<div id="_idContainer002">
-				<p class="Body-Text">Le Vaisseau d’or</p>
-				<p class="Body-Text">C’était un grand Vaisseau taillé dans l’or massif.</p>
-				<p class="Body-Text">Ses mâts touchaient l’azur sur des mers inconnues ; La Cyprine d’amour, cheveux épars, chairs nues, S’étalait à sa proue,
-					au soleil excessif.</p>
-			</div>
-		</div>
-		<p>
-			⠘⠦⠲⠲⠲⠴⠃
-		</p>
-		<p class="Body-Text">
-			Remarque : dans le cas de listes à un seul niveau, le transcripteur peut décider d’adopter le mode paragraphe plutôt
-			que le mode liste pour leur présentation. Chaque élément de la liste est alors traité dans un paragraphe distinct.</p>
-		<p class="Body-Text">Lorsqu’une liste comporte plus d’un niveau hiérarchique, le retrait appliqué à la portion de texte qui excède la première
-			ligne d’un élément de cette liste est de quatre cellules. Ainsi, les éléments du premier niveau hiérarchique sont disposés
-			en 1-5, les éléments du deuxième niveau en 3-7, ceux du troisième niveau en 5-9, et ainsi de suite. Cependant, afin de
-			minimiser les pertes d’espace, le transcripteur réduit le retrait à deux cellules seulement lorsqu’un élément est immédiatement
-			suivi d’un autre élément de même niveau ou de niveau supérieur. Le retrait est également réduit à deux cellules pour tout
-			élément appartenant au dernier niveau hiérarchique de même que pour le dernier élément de la liste.</p>
-		<p class="GAUCHE">
-			<span id="page61" title="61" epub:type="pagebreak" role="doc-pagebreak"></span>
-		</p>
-		<p class="Body-Text">Exemple 3 : liste hiérarchisée</p>
-		<p>Ordre du jour</p>
-		<ol>
-			<li value="1">Mot de bienvenue du président ;</li>
-			<li>Lecture et adoption de l’ordre du jour ;</li>
-			<li>Lecture et adoption du compte-rendu de l’assemblée générale annuelle 2005 ;</li>
-			<li>Rapports du conseil multidisciplinaire ;
-				<ol>
-					<li value="1">Rapport de l’exécutif</li>
-					<li>Rapports des comités de pairs
-						<ol>
-							<li value="1">Activités de la vie quotidienne</li>
-							<li>Braille et matériel tactile</li>
-							<li>Communication informatique</li>
-							<li>Orientation et mobilité</li>
-							<li>Optométrie / Basse vision</li>
-							<li>Psychologie / Orientation professionnelle / travail social</li>
-						</ol>
-					</li>
-				</ol>
-			</li>
-			<li>Planification pour la prochaine année ;
-				<ol>
-					<li>Nomination des représentants des comités de pairs</li>
-					<li>Thèmes suggérés par l’exécutif</li>
-				</ol>
-			</li>
-			<li>Autres questions ;</li>
-			<li>Levée de l’assemblée.</li>
-		</ol>
-		<p>
-			<span class="braille">⠨⠕⠗⠙⠗⠑⠀⠙⠥⠀⠚⠕⠥⠗</span>
-		</p>
-		<p>
-			<span class="braille">⠡⠲⠀⠨⠍⠕⠞⠀⠙⠑⠀⠃⠊⠑⠝⠧⠑⠝⠥⠑⠀⠙⠥⠀⠏⠗⠿⠎⠊⠙⠑⠝⠞⠀⠆</span>
-		</p>
-		<p>
-			<span class="braille">⠣⠲⠀⠨⠇⠑⠉⠞⠥⠗⠑⠀⠑⠞⠀⠁⠙⠕⠏⠞⠊⠕⠝⠀⠙⠑⠀⠇⠄⠕⠗⠙⠗⠑⠀⠙⠥⠀⠚⠕⠥⠗⠀⠆</span>
-		</p>
-		<p>
-			<span class="braille">⠩⠲⠀⠨⠇⠑⠉⠞⠥⠗⠑⠀⠑⠞⠀⠁⠙⠕⠏⠞⠊⠕⠝⠀⠙⠥⠀⠉⠕⠍⠏⠞⠑⠤⠗⠑⠝⠙⠥⠀⠙⠑⠀⠇⠄⠁⠎⠎⠑⠍⠃⠇⠿⠑⠀⠛⠿⠝⠿⠗⠁⠇⠑⠀⠁⠝⠝⠥⠑⠇⠇⠑⠀⠣⠼⠼⠱⠀⠆</span>
-		</p>
-		<p>
-			<span class="braille">⠹⠲⠀⠨⠗⠁⠏⠏⠕⠗⠞⠎⠀⠙⠥⠀⠉⠕⠝⠎⠑⠊⠇⠀⠍⠥⠇⠞⠊⠙⠊⠎⠉⠊⠏⠇⠊⠝⠁⠊⠗⠑⠀⠆</span>
-		</p>
-		<p>
-			<span class="braille">⠹⠲⠡⠀⠨⠗⠁⠏⠏⠕⠗⠞⠀⠙⠑⠀⠇⠄⠑⠭⠿⠉⠥⠞⠊⠋</span>
-		</p>
-		<p>
-			<span class="braille">⠹⠲⠣⠀⠨⠗⠁⠏⠏⠕⠗⠞⠎⠀⠙⠑⠎⠀⠉⠕⠍⠊⠞⠿⠎⠀⠙⠑⠀⠏⠁⠊⠗⠎</span>
-		</p>
-		<p>
-			<span class="braille">⠹⠲⠣⠲⠡⠀⠨⠁⠉⠞⠊⠧⠊⠞⠿⠎⠀⠙⠑⠀⠇⠁⠀⠧⠊⠑⠀⠟⠥⠕⠞⠊⠙⠊⠑⠝⠝⠑</span>
-		</p>
-		<p>
-			<span id="page61" title="61" epub:type="pagebreak" role="doc-pagebreak"></span>
-			<span class="braille">⠹⠲⠣⠲⠣⠀⠨⠃⠗⠁⠊⠇⠇⠑⠀⠑⠞⠀⠍⠁⠞⠿⠗⠊⠑⠇⠀⠞⠁⠉⠞⠊⠇⠑</span>
-		</p>
-		<p>
-			<span class="braille">⠹⠲⠣⠲⠩⠀⠨⠉⠕⠍⠍⠥⠝⠊⠉⠁⠞⠊⠕⠝⠀⠊⠝⠋⠕⠗⠍⠁⠞⠊⠟⠥⠑</span>
-		</p>
-		<p>
-			<span class="braille">⠹⠲⠣⠲⠹⠀⠨⠕⠗⠊⠑⠝⠞⠁⠞⠊⠕⠝⠀⠑⠞⠀⠍⠕⠃⠊⠇⠊⠞⠿</span>
-		</p>
-		<p>
-			<span class="braille">⠹⠲⠣⠲⠱⠀⠨⠕⠏⠞⠕⠍⠿⠞⠗⠊⠑⠀⠌⠀⠨⠃⠁⠎⠎⠑⠀⠧⠊⠎⠊⠕⠝</span>
-		</p>
-		<p>
-			<span class="braille">⠹⠲⠣⠲⠫⠀⠨⠏⠎⠽⠉⠓⠕⠇⠕⠛⠊⠑⠀⠌⠀⠨⠕⠗⠊⠑⠝⠞⠁⠞⠊⠕⠝⠀⠏⠗⠕⠋⠑⠎⠎⠊⠕⠝⠝⠑⠇⠇⠑⠀⠌⠀⠞⠗⠁⠧⠁⠊⠇⠀⠎⠕⠉⠊⠁⠇</span>
-		</p>
-		<p>
-			<span class="braille">⠱⠲⠀⠨⠏⠇⠁⠝⠊⠋⠊⠉⠁⠞⠊⠕⠝⠀⠏⠕⠥⠗⠀⠇⠁⠀⠏⠗⠕⠉⠓⠁⠊⠝⠑⠀⠁⠝⠝⠿⠑⠀⠆</span>
-		</p>
-		<p>
-			<span class="braille">⠱⠲⠡⠀⠨⠝⠕⠍⠊⠝⠁⠞⠊⠕⠝⠀⠙⠑⠎⠀⠗⠑⠏⠗⠿⠎⠑⠝⠞⠁⠝⠞⠎⠀⠙⠑⠎⠀⠉⠕⠍⠊⠞⠿⠎⠀⠙⠑⠀⠏⠁⠊⠗⠎</span>
-		</p>
-		<p>
-			<span class="braille">⠱⠲⠣⠀⠨⠞⠓⠮⠍⠑⠎⠀⠎⠥⠛⠛⠿⠗⠿⠎⠀⠏⠁⠗⠀⠇⠄⠑⠭⠿⠉⠥⠞⠊⠋</span>
-		</p>
-		<p>
-			<span class="braille">⠫⠲⠀⠨⠁⠥⠞⠗⠑⠎⠀⠟⠥⠑⠎⠞⠊⠕⠝⠎⠀⠆</span>
-		</p>
-		<p>
-			<span class="braille">⠻⠲⠀⠨⠇⠑⠧⠿⠑⠀⠙⠑⠀⠇⠄⠁⠎⠎⠑⠍⠃⠇⠿⠑⠲</span>
-		</p>
-		<h3 id="toc-epubtools-69">
-			d) Mode bloc</h3>
-		<p class="Body-Text">Le mode bloc se caractérise par un alignement vertical du début de la ligne pour toute une portion de texte. Cet alignement
-			peut se faire à la marge ou en retrait d’une ou plusieurs tabulations. On obtient alors du texte disposé en bloc 1, 3,
-			5 ou 7, etc. Ce mode est notamment utilisé pour la présentation de titres, de sources ou de tableaux (voir 3.2 « Les titres
-			», 3.8 c) « Tableaux par renfoncements progressifs », 3.12 « Le théâtre », etc.).</p>
-		<p class="GAUCHE">
-			<span id="page63" title="63" epub:type="pagebreak" role="doc-pagebreak"></span>
-		</p>
-		<p class="Body-Text">Exemple 4 : source en bloc 5</p>
-		<p>
-			<span>L’étude des lettres consiste à fixer dans la mémoire les images tactiles des signes de l’alphabet, et à les reconnaître
-				ensuite le plus promptement possible, opération qui comporte la création d’automatismes, puisque ces images tactiles
-				sont au nombre des souvenirs que l’on doit évoquer sans délai et sans effort. Tant que ce résultat n’est pas atteint,
-				la lecture reste lente et pénible. […]</span>
-		</p>
-		<div class="_idGenObjectLayout-1">
-			<div id="_idContainer003">
-				<p class="Body-Text">L’étude des lettres consiste à fixer dans la mémoire les images tactiles des signes de l’alphabet, et à les reconnaître
-					ensuite le plus promptement possible, opération qui comporte la création d’automatismes, puisque ces images tactiles
-					sont au nombre des souvenirs que l’on doit évoquer sans délai et sans effort. Tant que ce résultat n’est pas atteint,
-					la lecture reste lente et pénible. […]</p>
-			</div>
-		</div>
-		<p>[Georges Pérouze,
-			La rapidité de la lecture braille]</p>
-		<p>
-			<span class="braille">⠨⠇⠄⠿⠞⠥⠙⠑⠀⠙⠑⠎⠀⠇⠑⠞⠞⠗⠑⠎⠀⠉⠕⠝⠎⠊⠎⠞⠑⠀⠷⠀⠋⠊⠭⠑⠗⠀⠙⠁⠝⠎⠀⠇⠁⠀⠍⠿⠍⠕⠊⠗⠑⠀⠇⠑⠎⠀⠊⠍⠁⠛⠑⠎⠀⠞⠁⠉⠞⠊⠇⠑⠎⠀⠙⠑⠎⠀⠎⠊⠛⠝⠑⠎⠀⠙⠑⠀⠇⠄⠁⠇⠏⠓⠁⠃⠑⠞⠂⠀⠑⠞⠀⠷⠀⠇⠑⠎⠀⠗⠑⠉⠕⠝⠝⠁⠩⠞⠗⠑⠀⠑⠝⠎⠥⠊⠞⠑⠀⠇⠑⠀⠏⠇⠥⠎⠀⠏⠗⠕⠍⠏⠞⠑⠍⠑⠝⠞⠀⠏⠕⠎⠎⠊⠃⠇⠑⠂⠀⠕⠏⠿⠗⠁⠞⠊⠕⠝⠀⠟⠥⠊⠀⠉⠕⠍⠏⠕⠗⠞⠑⠀⠇⠁⠀⠉⠗⠿⠁⠞⠊⠕⠝⠀⠙⠄⠁⠥⠞⠕⠍⠁⠞⠊⠎⠍⠑⠎⠂⠀⠏⠥⠊⠎⠟⠥⠑⠀⠉⠑⠎⠀⠊⠍⠁⠛⠑⠎⠀⠞⠁⠉⠞⠊⠇⠑⠎⠀⠎⠕⠝⠞⠀⠁⠥⠀⠝⠕⠍⠃⠗⠑⠀⠙⠑⠎⠀⠎⠕⠥⠧⠑⠝⠊⠗⠎⠀⠟⠥⠑⠀⠇⠄⠕⠝⠀⠙⠕⠊⠞⠀⠿⠧⠕⠟⠥⠑⠗⠀⠎⠁⠝⠎⠀⠙⠿⠇⠁⠊⠀⠑⠞⠀⠎⠁⠝⠎⠀⠑⠋⠋⠕⠗⠞⠲⠀⠨⠞⠁⠝⠞⠀⠟⠥⠑⠀⠉⠑⠀⠗⠿⠎⠥⠇⠞⠁⠞⠀⠝⠄⠑⠎⠞⠀⠏⠁⠎⠀⠁⠞⠞⠑⠊⠝⠞⠂⠀⠇⠁⠀⠇⠑⠉⠞⠥⠗⠑⠀⠗⠑⠎⠞⠑⠀⠇⠑⠝⠞⠑⠀⠑⠞⠀⠏⠿⠝⠊⠃⠇⠑⠲</span>
-		</p>
-		<p>
-			<span class="braille">⠘⠦</span>
-			<span class="braille">…</span>
-			<span class="braille">⠴⠃</span>
-		</p>
-		<p>
-			⠨⠛⠑⠕⠗⠛⠑⠎⠀⠨⠏⠿⠗⠕⠥⠵⠑⠂⠀⠒⠸⠨⠇⠁⠀⠗⠁⠏⠊⠙⠊⠞⠿⠀⠙⠑⠀⠇⠁⠀⠇⠑⠉⠞⠥⠗⠑⠀⠸⠃⠗⠁⠊⠇⠇⠑
-		</p>
-		<p class="GAUCHE">
-			<span id="page$1" title="$1" epub:type="pagebreak" role="doc-pagebreak"></span>s="pages"> 64
-			</span>
-		</p>
-		<h3 id="toc-epubtools-70">e) Passage d’un mode à un autre</h3>
-		<p class="Body-Text">Selon l’information à transcrire, plusieurs de ces modes peuvent se succéder dans un même document. Afin de faciliter le
-			repérage de la structure du texte, il est très important que le transcripteur marque clairement le passage d’un mode de
-			présentation à un autre. Pour ce faire, il peut utiliser l’une des deux techniques suivantes : soit il laisse une ligne
-			vide entre deux modes de présentation, soit il fait varier les retraits appliqués aux différentes portions de texte (voir
-			la remarque du chapitre 3.1 f) « Lignes vides, sauts de page et tabulations »).</p>
-		<p class="Body-Text">Exemple 5 : passage du mode paragraphe au mode liste, puis au mode bloc</p>
-		<p>
-			Trois Français ont contribué à ce que les aveugles puissent accéder à l’information écrite :
-		</p>
-		<ul>
-			<li>
-				Valentin Haüy (1745-1822) avec son écriture régulière en relief ;
-			</li>
-			<li>
-				Charles Barbier de la Serre (1767-1841) avec son système à 12 points représentant des phonèmes ;
-			</li>
-			<li>
-				Louis Braille (1809-1852) qui inventa le système de lecture et d’écriture tactile à six points.
-			</li>
-		</ul>
-		<p>
-			Aujourd’hui, le système de Louis Braille est en usage partout dans le monde.
-		</p>
-		<p class="Body-Text">
-			La lecture tactile, p. 26.</p>
-		<p>
-			<span class="braille">⠨⠞⠗⠕⠊⠎⠀⠨⠋⠗⠁⠝⠯⠁⠊⠎⠀⠕⠝⠞⠀⠉⠕⠝⠞⠗⠊⠃⠥⠿⠀⠷⠀⠉⠑⠀⠟⠥⠑⠀⠇⠑⠎⠀⠁⠧⠑⠥⠛⠇⠑⠎⠀⠏⠥⠊⠎⠎⠑⠝⠞⠀⠁⠉⠉⠿⠙⠑⠗⠀⠷⠀⠇⠄⠊⠝⠋⠕⠗⠍⠁⠞⠊⠕⠝⠀⠿⠉⠗⠊⠞⠑⠒</span>
-		</p>
-		<p>
-			<span class="braille">⠪⠕⠀⠨⠧⠁⠇⠑⠝⠞⠊⠝⠀⠨⠓⠁⠳⠽⠀⠦⠡⠻⠹⠱⠤⠡⠳⠣⠣⠴⠀⠁⠧⠑⠉⠀⠎⠕⠝⠀⠿⠉⠗⠊⠞⠥⠗⠑⠀⠗⠿⠛⠥⠇⠊⠮⠗⠑⠀⠑⠝⠀⠗⠑⠇⠊⠑⠋⠆</span>
-		</p>
-		<p>
-			<span class="braille">⠪⠕⠀⠨⠉⠓⠁⠗⠇⠑⠎⠀⠨⠃⠁⠗⠃⠊⠑⠗⠀⠙⠑⠀⠇⠁⠀⠨⠎⠑⠗⠗⠑⠀⠦⠡⠻⠫⠻⠤⠡⠳⠹⠡⠴⠀⠁⠧⠑⠉⠀⠎⠕⠝⠀⠎⠽⠎⠞⠮⠍⠑⠀⠷⠀⠡⠣⠀⠏⠕⠊⠝⠞⠎⠀⠗⠑⠏⠗⠿⠎⠑⠝⠞⠁⠝⠞⠀⠙⠑⠎⠀⠏⠓⠕⠝⠮⠍⠑⠎⠆</span>
-		</p>
-		<p class="GAUCHE">
-			<span id="page65" title="65" epub:type="pagebreak" role="doc-pagebreak"></span>
-		</p>
-		<p>
-			<span class="braille">⠪⠕⠀⠨⠇⠕⠥⠊⠎⠀⠨⠃⠗⠁⠊⠇⠇⠑⠀⠦⠡⠳⠼⠪⠤⠡⠳⠱⠣⠴⠀⠟⠥⠊⠀⠊⠝⠧⠑⠝⠞⠁⠀⠇⠑⠀⠎⠽⠎⠞⠮⠍⠑⠀⠙⠑⠀⠇⠑⠉⠞⠥⠗⠑⠀⠑⠞⠀⠙⠄⠿⠉⠗⠊⠞⠥⠗⠑⠀⠞⠁⠉⠞⠊⠇⠑⠀⠷⠀⠎⠊⠭⠀⠏⠕⠊⠝⠞⠎⠲</span>
-		</p>
-		<p>
-			<span class="braille">⠨⠁⠥⠚⠕⠥⠗⠙⠄⠓⠥⠊⠂⠀⠇⠑⠀⠎⠽⠎⠞⠮⠍⠑⠀⠙⠑⠀⠨⠇⠕⠥⠊⠎⠀⠨⠃⠗⠁⠊⠇⠇⠑⠀⠑⠎⠞⠀⠑⠝⠀⠥⠎⠁⠛⠑⠀⠏⠁⠗⠞⠕⠥⠞⠀⠙⠁⠝⠎⠀⠇⠑⠀⠍⠕⠝⠙⠑⠲</span>
-		</p>
-		<p>
-			<span class="braille">⠨⠇⠁⠀⠇⠑⠉⠞⠥⠗⠑⠀⠞⠁⠉⠞⠊⠇⠑⠂⠀⠏⠲⠀⠣⠫⠲</span>
-		</p>
-		<p class="Body-Text">ou</p>
-		<p>
-			<span class="braille">⠨⠞⠗⠕⠊⠎⠀⠨⠋⠗⠁⠝⠯⠁⠊⠎⠀⠕⠝⠞⠀⠉⠕⠝⠞⠗⠊⠃⠥⠿⠀⠷⠀⠉⠑⠀⠟⠥⠑⠀⠇⠑⠎⠀⠁⠧⠑⠥⠛⠇⠑⠎⠀⠏⠥⠊⠎⠎⠑⠝⠞⠀⠁⠉⠉⠿⠙⠑⠗⠀⠷⠀⠇⠄⠊⠝⠋⠕⠗⠍⠁⠞⠊⠕⠝⠀⠿⠉⠗⠊⠞⠑⠒</span>
-		</p>
-		<p>
-			<span class="braille">⠪⠕⠀⠨⠧⠁⠇⠑⠝⠞⠊⠝⠀⠨⠓⠁⠳⠽⠀⠦⠡⠻⠹⠱⠤⠡⠳⠣⠣⠴⠀⠁⠧⠑⠉⠀⠎⠕⠝⠀⠿⠉⠗⠊⠞⠥⠗⠑⠀⠗⠿⠛⠥⠇⠊⠮⠗⠑⠀⠑⠝⠀⠗⠑⠇⠊⠑⠋⠆</span>
-		</p>
-		<p>
-			<span class="braille">⠪⠕⠀⠨⠉⠓⠁⠗⠇⠑⠎⠀⠨⠃⠁⠗⠃⠊⠑⠗⠀⠙⠑⠀⠇⠁⠀⠨⠎⠑⠗⠗⠑⠀⠦⠡⠻⠫⠻⠤⠡⠳⠹⠡⠴⠀⠁⠧⠑⠉⠀⠎⠕⠝⠀⠎⠽⠎⠞⠮⠍⠑⠀⠷⠀⠡⠣⠀⠏⠕⠊⠝⠞⠎⠀⠗⠑⠏⠗⠿⠎⠑⠝⠞⠁⠝⠞⠀⠙⠑⠎⠀⠏⠓⠕⠝⠮⠍⠑⠎⠆</span>
-		</p>
-		<p>
-			<span class="braille">⠪⠕⠀⠨⠇⠕⠥⠊⠎⠀⠨⠃⠗⠁⠊⠇⠇⠑⠀⠦⠡⠳⠼⠪⠤⠡⠳⠱⠣⠴⠀⠟⠥⠊⠀⠊⠝⠧⠑⠝⠞⠁⠀⠇⠑⠀⠎⠽⠎⠞⠮⠍⠑⠀⠙⠑⠀⠇⠑⠉⠞⠥⠗⠑⠀⠑⠞⠀⠙⠄⠿⠉⠗⠊⠞⠥⠗⠑⠀⠞⠁⠉⠞⠊⠇⠑⠀⠷⠀⠎⠊⠭⠀⠏⠕⠊⠝⠞⠎⠲</span>
-		</p>
-		<p>
-			<span class="braille">⠨⠁⠥⠚⠕⠥⠗⠙⠄⠓⠥⠊⠂⠀⠇⠑⠀⠎⠽⠎⠞⠮⠍⠑⠀⠙⠑⠀⠨⠇⠕⠥⠊⠎⠀⠨⠃⠗⠁⠊⠇⠇⠑⠀⠑⠎⠞⠀⠑⠝⠀⠥⠎⠁⠛⠑⠀</span>
-			<span id="page66" title="66" epub:type="pagebreak" role="doc-pagebreak"></span>
-			<span class="braille">⠀⠏⠁⠗⠞⠕⠥⠞⠀⠙⠁⠝⠎⠀⠇⠑⠀⠍⠕⠝⠙⠑⠲</span>
-		</p>
-		<p class="Body-Text">
-			⠨⠇⠁⠀⠇⠑⠉⠞⠥⠗⠑⠀⠞⠁⠉⠞⠊⠇⠑⠂⠀⠏⠲⠀⠣⠫⠲
-		</p>
-		<h3 id="toc-epubtools-71">
-			f) Lignes vides, sauts de page et tabulations</h3>
-		<p class="Body-Text">Outre une utilisation rationnelle des différents modes de mise en page expliqués ci- dessus, il est recommandé de ne recourir
-			à l’emploi d’une ligne vide que de façon à distinguer les éléments qui relèvent de la structure d’un ouvrage, favorisant
-			ainsi la localisation tactile des éléments formels du texte. En effet, à la différence de l’imprimé, une ligne vide est
-			un important point de repère dans la page braille : elle annonce un titre, un changement de mode, une séparation dans
-			le texte, etc.</p>
-		<p class="Body-Text">
-			Remarque : dans certains cas, un changement de page braille ou un indicateur de changement de page de référence
-			(voir 3.4 b) « Pagination de référence ») équivaut à une ligne vide.</p>
-		<p class="Body-Text">Le déplacement d’une portion de texte sur les positions de tabulation est un autre outil mis à la disposition du transcripteur.
-			Qu’il s’agisse d’un paragraphe, d’une liste ou d’un texte présenté en mode bloc, le retrait par rapport au texte environnant
-			permet de mettre en évidence une information de nature différente (notes de bas de page, sources, didascalies, etc.) ou
-			de rendre compte d’une hiérarchie (listes hiérarchisées, tableaux par renfoncements progressifs, etc.).</p>
-		<h3 id="toc-epubtools-72">
-			g) Séparation des mots, coupures, lignes veuves et orphelines</h3>
-		<p class="Body-Text">L’écriture braille est sujette à des contraintes spécifiques que ne connaît pas l’écriture ordinaire :</p>
-		<ul>
-			<li>
-				la longueur des lignes est sensiblement inférieure (30 à 40 caractères),
-			</li>
-			<li>
-				la fixité dans la dimension des caractères, dans leur espacement et dans l’interligne (alors que l’
-				<span lang="ar-SA" xml:lang="ar-SA">écriture proportionnelle est largement répandue dans l</span>
-				’imprimé),
-			</li>
-			<li>
-				l’impossibilité de la justification du texte à gauche et à droite.
-			</li>
-		</ul>
-		<p class="Body-Text">C’est pourquoi il est admis, en braille, de déroger aux règles de la typographie concernant la séparation et la coupure
-			des mots en fin de ligne. Le transcripteur veillera cependant à couper les mots en accord avec les règles grammaticales
-			et en respectant les conventions suivantes :</p>
-		<p class="GAUCHE">
-			<span id="page67" title="67" epub:type="pagebreak" role="doc-pagebreak"></span>
-		</p>
-		<p class="Body-Text">1° La coupure en fin de ligne est interdite :</p>
-		<ul>
-			<li>
-				au milieu d’un sigle (voir 1.1 b) « Sigles »),
-			</li>
-			<li>
-				à l
-				’intérieur d’un titre centré (voir remarque du chapitre 3.2 « Les titres »),
-			</li>
-			<li>
-				après l’apostrophe,
-			</li>
-			<li>
-				au milieu d’une abréviation de l’imprimé.
-			</li>
-		</ul>
-		<p class="Body-Text">2° La coupure en fin de ligne est tolérée :</p>
-		<ul>
-			<li>
-				<span>entre deux éléments généralement séparés par un espace insécable (un nombre et le mot ou le symbole d’unité de mesure
-					qui s’y rapporte, un prénom et un nom, les éléments d’une date, etc.),</span>
-			</li>
-			<li>
-				au milieu d’un nom propre,
-			</li>
-			<li>
-				au milieu d’un nom composé (ex. : Grande-Bre-tagne),
-			</li>
-			<li>
-				avant une syllabe muette (ex. : poè-me, pâ-le),
-			</li>
-			<li>
-				après la première voyelle d’un mot (ex. : 
-				é-cureuil
-				).
-			</li>
-		</ul>
-		<p class="Body-Text">Enfin, la présence de lignes veuves (dernière ligne d’un paragraphe en début de page) ou orphelines (première ligne d’un
-			paragraphe sur la dernière ligne de la page) est admise, hormis dans le cas de paragraphes suivant un titre de premier
-			ou de deuxième niveau (voir 3.2 a) « Titre de premier niveau » et 3.2 b) « Titre de deuxième niveau »).</p>
-		<p class="GAUCHE">
-			<span id="page$1" title="$1" epub:type="pagebreak" role="doc-pagebreak"></span>s="pages"> 68
-			</span>
-		</p>
-	</div>
-</body>
-
+	</body>
 </html>
