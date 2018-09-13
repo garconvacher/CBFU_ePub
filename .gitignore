@@ -3,3 +3,7 @@ Sass/.sass-cache
 .sass-cache
 Report_ace*
 node_modules
+*.tasks
+package*.json
+gulpfile.js
+modules_canope

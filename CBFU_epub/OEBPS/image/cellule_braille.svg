@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 149 97.1" style="enable-background:new 0 0 149 97.1;" xml:space="preserve">
+
+	<circle cx="58.1" cy="15.5" r="10.7"/>
+<circle cx="90.7" cy="15.5" r="10.7"/>
+<circle cx="58.1" cy="48" r="10.7"/>
+<circle cx="90.7" cy="48" r="10.7"/>
+<circle cx="58.1" cy="80.3" r="10.7"/>
+<circle cx="90.7" cy="80.3" r="10.7"/>
+<line style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;" x1="42.9" y1="15.5" x2="18.3" y2="15.5"/>
+<line style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;" x1="42.9" y1="48" x2="18.3" y2="48"/>
+<line style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;" x1="42.9" y1="80.3" x2="18.3" y2="80.3"/>
+<line style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;" x1="130.6" y1="15.5" x2="106.1" y2="15.5"/>
+<line style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;" x1="130.6" y1="48" x2="106.1" y2="48"/>
+<line style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;" x1="130.6" y1="80.3" x2="106.1" y2="80.3"/>
+<text transform="matrix(1 0 0 1 -1.1 23.4887)" style="font-family:'Arial'; font-size:27.3715px;">1</text>
+<text transform="matrix(1 0 0 1 -1.1 56.2167)" style="font-family:'Arial'; font-size:27.3715px;">2</text>
+<text transform="matrix(1 0 0 1 -1.1 88.1907)" style="font-family:'Arial'; font-size:27.3715px;">3</text>
+<text transform="matrix(1 0 0 1 134 23.4887)" style="font-family:'Arial'; font-size:27.3715px;">4</text>
+<text transform="matrix(1 0 0 1 134 56.2167)" style="font-family:'Arial'; font-size:27.3715px;">5</text>
+<text transform="matrix(1 0 0 1 134 88.1907)" style="font-family:'Arial'; font-size:27.3715px;">6</text>
+</svg>
