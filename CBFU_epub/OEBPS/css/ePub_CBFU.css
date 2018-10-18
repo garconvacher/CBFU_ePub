@@ -124,9 +124,9 @@ q {
     quotes: none;
 }
 
-aside>       : last-child,
-body>        : last-child,
-body>section>: last-child {
+aside>:last-child,
+body>:last-child,
+body>section>:last-child {
     margin-bottom: 0;
 }
 
@@ -162,7 +162,6 @@ body {
 }
 
 .BrailleDirectpara {
-    line-height: 1em;
     margin-top : .5em;
     line-height: 1.5em;
 }
@@ -341,7 +340,6 @@ p.centrer {
     text-align     : left;
     text-decoration: none;
     border         : 0;
-    font-size      : smaller;
     line-height    : normal;
     vertical-align : super;
 }
