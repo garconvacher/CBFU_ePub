@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: "braille";
-    src        : url("../font/LouisLouis.ttf") format("TrueType");
+    src: url("../font/LouisLouis.ttf") format("TrueType");
 }
 
 /* Reset from : */
@@ -42,12 +42,12 @@ pre,
 section,
 summary,
 ul {
-    font-size  : 1em;
+    font-size: 1em;
     font-weight: normal;
-    font-style : normal;
+    font-style: normal;
     line-height: inherit;
-    margin     : 0;
-    padding    : 0;
+    margin: 0;
+    padding: 0;
     text-indent: 0;
 }
 
@@ -112,12 +112,12 @@ sub,
 sup,
 time,
 var {
-    font-size      : inherit;
-    font-weight    : inherit;
-    font-style     : inherit;
-    vertical-align : baseline;
+    font-size: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    vertical-align: baseline;
     text-decoration: none;
-    color          : inherit;
+    color: inherit;
 }
 
 q {
@@ -132,9 +132,9 @@ body>section>:last-child {
 
 * {
     -webkit-hyphens: none;
-    -moz-hyphens   : none;
-    hyphens        : none;
-    -ms-hyphens    : none;
+    -moz-hyphens: none;
+    hyphens: none;
+    -ms-hyphens: none;
 }
 
 html {
@@ -142,7 +142,7 @@ html {
 }
 
 body {
-    font-size  : 1em;
+    font-size: 1em;
     font-family: sans-serif;
 }
 
@@ -151,26 +151,37 @@ body {
 }
 
 .BrailleDirect,
+.BrailleDirectTexte,
 .BrailleDirectpara {
     font-family: "braille";
-    font-size  : 1.6em;
+    font-size: 1.6em;
+    font-weight: normal;
+}
+
+.BrailleDirectTexte {
+    padding-left: .2em;
+    padding-right: .2em;
+}
+
+p span.BrailleDirect {
+    padding-left: 1em;
 }
 
 .espBraille {
-    font-family  : initial;
-    padding-right: .4em;
+    font-family: initial;
+    padding-right: .5em;
 }
 
 .BrailleDirectpara {
-    margin-top : .5em;
+    margin-top: .5em;
     line-height: 1.5em;
 }
 
 h1,
 .titreLivre,
 .titre {
-    font-weight  : bold;
-    margin-top   : 2em;
+    font-weight: bold;
+    margin-top: 2em;
     margin-bottom: 1em;
     /* line-height: 1.5em; */
 }
@@ -185,12 +196,12 @@ h1,
 }
 
 h2 {
-    font-size : 1.4em;
+    font-size: 1.4em;
     margin-top: 2em;
 }
 
 h3 {
-    font-size : 1.2em;
+    font-size: 1.2em;
     margin-top: 2em;
 }
 
@@ -206,16 +217,15 @@ h4 {
 }
 
 p {
-    margin-top : 1em;
+    margin-top: 1em;
     line-height: 1.5em;
 }
 
 ul {
-    line-height    : 1.5em;
-    list-style     : outside;
-    /* list-style-type: square; */
-    padding-left   : 2em;
-    width          : calc(100% - 2em);
+    line-height: 1.5em;
+    list-style: outside;
+    padding-left: 2em;
+    width: calc(100% - 2em);
 }
 
 dt {
@@ -224,9 +234,9 @@ dt {
 }
 
 ol {
-    line-height : 1.5em;
+    line-height: 1.5em;
     padding-left: 2em;
-    width       : calc(100% - 2em);
+    width: calc(100% - 2em);
 }
 
 ol li {
@@ -260,9 +270,9 @@ u {
 }
 
 img {
-    max-width   : 25%;
-    display     : block;
-    margin-left : auto;
+    max-width: 25%;
+    display: block;
+    margin-left: auto;
     margin-right: auto;
 }
 
@@ -276,12 +286,12 @@ a:hover {
 
 sup {
     vertical-align: super;
-    font-size     : .8em;
+    font-size: .8em;
 }
 
 .centrer {
-    display     : block;
-    margin-left : auto;
+    display: block;
+    margin-left: auto;
     margin-right: auto;
 }
 
@@ -296,13 +306,13 @@ p.centrer {
 
 #tab64carac td {
     border-top-style: solid;
-    padding         : .3em .4em;
-    width           : 1em;
+    padding: .3em .4em;
+    width: 1em;
 }
 
 #tab64carac {
     border-collapse: collapse;
-    border-style   : solid;
+    border-style: solid;
 }
 
 .centrer64Carac {
@@ -314,8 +324,8 @@ p.centrer {
 }
 
 .tabBraille {
-    width          : 100%;
-    margin-top     : 1.5em;
+    width: 100%;
+    margin-top: 1.5em;
     border-collapse: collapse;
 }
 
@@ -323,32 +333,37 @@ p.centrer {
 .tabBraille th {
     border-style: solid;
     border-width: .2em;
-    padding     : .1em .3em;
+    padding: .1em .3em;
+}
+
+th[scope="row"] {
+    font-weight: normal;
+    text-align: left;
 }
 
 .tabBraille caption {
     border-style: solid;
     border-width: .2em;
-    padding     : .5em .3em;
-    font-weight : bold;
-    font-size   : 1.2em;
+    padding: .5em .3em;
+    font-weight: bold;
+    font-size: 1.2em;
 }
 
 .notes-basdepage {
-    font-size      : .6em;
-    padding-left   : .1em;
-    text-align     : left;
+    font-size: .6em;
+    padding-left: .1em;
+    text-align: left;
     text-decoration: none;
-    border         : 0;
-    line-height    : normal;
-    vertical-align : super;
+    border: 0;
+    line-height: normal;
+    vertical-align: super;
 }
 
 .texte-notes {
-    font-size   : .9em;
-    padding-top : 1.5em;
+    font-size: .9em;
+    padding-top: 1.5em;
     padding-left: 2em;
-    text-align  : left;
+    text-align: left;
 }
 
 .exposant {
@@ -368,12 +383,14 @@ p.centrer {
 }
 
 .sans-top {
-    margin-top : 0;
+    margin-top: 0;
     line-height: 1.2em
 }
 
+
+
 .divBraille {
-    overflow-x : auto;
+    overflow-x: auto;
     white-space: nowrap;
     padding-left: 2em;
 }
@@ -389,39 +406,57 @@ p.centrer {
 ol.listeNumImbriquee {
     counter-reset: section;
     list-style-type: none;
-  }
+}
+
 .listeNumImbriquee li {
     font-weight: normal !important;
 }
-  
+
 .listeNumImbriquee li::before {
     counter-increment: section;
-    content: counters(section,".") ".\00a0";
-  }
+    content: counters(section, ".") ".\00a0";
+}
 
-  em {
-      font-style: italic
-  }
+em {
+    font-style: italic;
+}
 
-  
-  ul.ptConduite {
+
+ul.ptConduite {
     max-width: 40em;
     padding-left: 1em;
     overflow-x: hidden;
-    list-style: none}
+    list-style: none;
+}
+
 ul.ptConduite li:before {
     float: left;
     width: 0;
     white-space: nowrap;
     content:
- ". . . . . . . . . . . . . . . . . . . . "
- ". . . . . . . . . . . . . . . . . . . . "
- ". . . . . . . . . . . . . . . . . . . . "
- ". . . . . . . . . . . . . . . . . . . . "}
+        ". . . . . . . . . . . . . . . . . . . . "
+        ". . . . . . . . . . . . . . . . . . . . "
+        ". . . . . . . . . . . . . . . . . . . . "
+        ". . . . . . . . . . . . . . . . . . . . ";
+}
+
 ul.ptConduite span:first-child {
     padding-right: 0.33em;
-    background: white}
-ul.ptConduite span + span {
+    background: white;
+}
+
+ul.ptConduite span+span {
     float: right;
     padding-left: 0.33em;
-    background: white}
+    background: white;
+}
+
+.encadre {
+    border: .15em solid black;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.droite {
+    text-align: right;
+}

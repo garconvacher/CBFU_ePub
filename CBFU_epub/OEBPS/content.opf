@@ -1,98 +1,96 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <package version="3.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-		<meta name="generator" content="Adobe InDesign 13.1" />
 		<meta name="cover" content="x1.png" />
 		<meta property="ibooks:specified-fonts">true</meta>
 		<dc:title>CBFU_epub</dc:title>
 		<dc:date>2018-04-23T12:30:16Z</dc:date>
-		<dc:language>ar-SA</dc:language>
-		<dc:language>en-US</dc:language>
 		<dc:language>fr-FR</dc:language>
 		<meta property="dcterms:modified">2018-04-23T12:30:16Z</meta>
-		<dc:identifier id="bookid">urn:uuid:526d39ae-8c4b-4cdf-baf5-3797b68aac46</dc:identifier>
+		<dc:identifier id="bookid">CBFU2008</dc:identifier>
 	</metadata>
-	<manifest><item id="CBFU_epub-1" href="CBFU_epub-1.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-10" href="CBFU_epub-10.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-11" href="CBFU_epub-11.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-12" href="CBFU_epub-12.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-13" href="CBFU_epub-13.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-15" href="CBFU_epub-15.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-16" href="CBFU_epub-16.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-17" href="CBFU_epub-17.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-18" href="CBFU_epub-18.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-19" href="CBFU_epub-19.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-2" href="CBFU_epub-2.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-20" href="CBFU_epub-20.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-22" href="CBFU_epub-22.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-23" href="CBFU_epub-23.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-24" href="CBFU_epub-24.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-25" href="CBFU_epub-25.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-26" href="CBFU_epub-26.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-27" href="CBFU_epub-27.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-28" href="CBFU_epub-28.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-29" href="CBFU_epub-29.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-3" href="CBFU_epub-3.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-31" href="CBFU_epub-31.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-32" href="CBFU_epub-32.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-33" href="CBFU_epub-33.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-34" href="CBFU_epub-34.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-35" href="CBFU_epub-35.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-36" href="CBFU_epub-36.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-37" href="CBFU_epub-37.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-38" href="CBFU_epub-38.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-39" href="CBFU_epub-39.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-4" href="CBFU_epub-4.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-40" href="CBFU_epub-40.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-41" href="CBFU_epub-41.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-42" href="CBFU_epub-42.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-43" href="CBFU_epub-43.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-44" href="CBFU_epub-44.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-45" href="CBFU_epub-45.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-46" href="CBFU_epub-46.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-47" href="CBFU_epub-47.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-48" href="CBFU_epub-48.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-49" href="CBFU_epub-49.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-5" href="CBFU_epub-5.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-6" href="CBFU_epub-6.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-7" href="CBFU_epub-7.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-8" href="CBFU_epub-8.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub-9" href="CBFU_epub-9.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="CBFU_epub" href="CBFU_epub.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="cover" href="cover.xhtml" media-type="application/xhtml+xml" properties="scripted" />
-<item id="ePub_CBFU.css" href="css/ePub_CBFU.css" media-type="text/css" />
-<item id="LouisLouis.ttf" href="font/LouisLouis.ttf" media-type="application/vnd.ms-opentype" />
-<item id="x1.png" href="image/1.png" media-type="image/png" />
-<item id="cellule_braille.svg" href="image/cellule_braille.svg" media-type="image/svg+xml" />
-<item id="Image1174.png" href="image/Image1174.png" media-type="image/png" />
-<item id="Image1181.png" href="image/Image1181.png" media-type="image/png" />
-<item id="Image1189.png" href="image/Image1189.png" media-type="image/png" />
-<item id="Image1198.png" href="image/Image1198.png" media-type="image/png" />
-<item id="Image1205.png" href="image/Image1205.png" media-type="image/png" />
-<item id="Image1213.png" href="image/Image1213.png" media-type="image/png" />
-<item id="Image1221.png" href="image/Image1221.png" media-type="image/png" />
-<item id="Image1228.png" href="image/Image1228.png" media-type="image/png" />
-<item id="Image1457.png" href="image/Image1457.png" media-type="image/png" />
-<item id="Image1491.png" href="image/Image1491.png" media-type="image/png" />
-<item id="Image1498.png" href="image/Image1498.png" media-type="image/png" />
-<item id="Image1506.png" href="image/Image1506.png" media-type="image/png" />
-<item id="Image1513.png" href="image/Image1513.png" media-type="image/png" />
-<item id="Image1522.png" href="image/Image1522.png" media-type="image/png" />
-<item id="Image1529.png" href="image/Image1529.png" media-type="image/png" />
-<item id="Image1588.png" href="image/Image1588.png" media-type="image/png" />
-<item id="Image1639.png" href="image/Image1639.png" media-type="image/png" />
-<item id="Image1679.png" href="image/Image1679.png" media-type="image/png" />
-<item id="Image1705.png" href="image/Image1705.png" media-type="image/png" />
-<item id="Image1712.png" href="image/Image1712.png" media-type="image/png" />
-<item id="Image1722.png" href="image/Image1722.png" media-type="image/png" />
-<item id="Image1729.png" href="image/Image1729.png" media-type="image/png" />
-<item id="Image544.png" href="image/Image544.png" media-type="image/png" />
-<item id="toc.ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
-<item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav scripted" />
-</manifest>
+	<manifest>
+		<item id="CBFU_epub-1" href="CBFU_epub-1.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-10" href="CBFU_epub-10.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-11" href="CBFU_epub-11.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-12" href="CBFU_epub-12.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-13" href="CBFU_epub-13.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-15" href="CBFU_epub-15.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-16" href="CBFU_epub-16.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-17" href="CBFU_epub-17.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-18" href="CBFU_epub-18.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-19" href="CBFU_epub-19.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-2" href="CBFU_epub-2.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-20" href="CBFU_epub-20.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-22" href="CBFU_epub-22.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-23" href="CBFU_epub-23.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-24" href="CBFU_epub-24.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-25" href="CBFU_epub-25.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-26" href="CBFU_epub-26.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-27" href="CBFU_epub-27.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-28" href="CBFU_epub-28.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-29" href="CBFU_epub-29.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-3" href="CBFU_epub-3.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-31" href="CBFU_epub-31.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-32" href="CBFU_epub-32.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-33" href="CBFU_epub-33.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-34" href="CBFU_epub-34.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-35" href="CBFU_epub-35.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-36" href="CBFU_epub-36.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-37" href="CBFU_epub-37.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-38" href="CBFU_epub-38.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-39" href="CBFU_epub-39.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-4" href="CBFU_epub-4.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-40" href="CBFU_epub-40.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-41" href="CBFU_epub-41.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-42" href="CBFU_epub-42.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-43" href="CBFU_epub-43.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-44" href="CBFU_epub-44.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-45" href="CBFU_epub-45.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-46" href="CBFU_epub-46.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-5" href="CBFU_epub-5.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-6" href="CBFU_epub-6.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-7" href="CBFU_epub-7.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-8" href="CBFU_epub-8.xhtml" media-type="application/xhtml+xml" />
+		<item id="CBFU_epub-9" href="CBFU_epub-9.xhtml" media-type="application/xhtml+xml" />
+		<item id="cover" href="cover.xhtml" media-type="application/xhtml+xml" />
+		<item id="ePub_CBFU.css" href="css/ePub_CBFU.css" media-type="text/css" />
+		<item id="LouisLouis.ttf" href="font/LouisLouis.ttf" media-type="application/vnd.ms-opentype" />
+		<item id="x1.png" href="image/1.png" media-type="image/png" />
+		<item id="x2.png" href="image/2.png" media-type="image/png" />
+		<item id="cellule_braille.svg" href="image/cellule_braille.svg" media-type="image/svg+xml" />
+		<item id="Image01.PNG" href="image/Image01.PNG" media-type="image/png" />
+		<item id="Image1174.png" href="image/Image1174.png" media-type="image/png" />
+		<item id="Image1181.png" href="image/Image1181.png" media-type="image/png" />
+		<item id="Image1189.png" href="image/Image1189.png" media-type="image/png" />
+		<item id="Image1198.png" href="image/Image1198.png" media-type="image/png" />
+		<item id="Image1205.png" href="image/Image1205.png" media-type="image/png" />
+		<item id="Image1213.png" href="image/Image1213.png" media-type="image/png" />
+		<item id="Image1221.png" href="image/Image1221.png" media-type="image/png" />
+		<item id="Image1228.png" href="image/Image1228.png" media-type="image/png" />
+		<item id="Image1457.png" href="image/Image1457.png" media-type="image/png" />
+		<item id="Image1491.png" href="image/Image1491.png" media-type="image/png" />
+		<item id="Image1498.png" href="image/Image1498.png" media-type="image/png" />
+		<item id="Image1506.png" href="image/Image1506.png" media-type="image/png" />
+		<item id="Image1513.png" href="image/Image1513.png" media-type="image/png" />
+		<item id="Image1522.png" href="image/Image1522.png" media-type="image/png" />
+		<item id="Image1529.png" href="image/Image1529.png" media-type="image/png" />
+		<item id="Image1588.png" href="image/Image1588.png" media-type="image/png" />
+		<item id="Image1639.png" href="image/Image1639.png" media-type="image/png" />
+		<item id="Image1679.png" href="image/Image1679.png" media-type="image/png" />
+		<item id="Image1705.png" href="image/Image1705.png" media-type="image/png" />
+		<item id="Image1712.png" href="image/Image1712.png" media-type="image/png" />
+		<item id="Image1722.png" href="image/Image1722.png" media-type="image/png" />
+		<item id="Image1729.png" href="image/Image1729.png" media-type="image/png" />
+		<item id="Image544.png" href="image/Image544.png" media-type="image/png" />
+		<item id="toc.ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
+		<item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav" />
+	</manifest>
 	<spine toc="toc.ncx">
 		<itemref idref="cover" linear="no" />
-		<itemref idref="CBFU_epub" />
+
+		<itemref idref="cover" />
+		<itemref idref="toc" />
 		<itemref idref="CBFU_epub-1" />
 		<itemref idref="CBFU_epub-2" />
 		<itemref idref="CBFU_epub-3" />
@@ -135,9 +133,7 @@
 		<itemref idref="CBFU_epub-44" />
 		<itemref idref="CBFU_epub-45" />
 		<itemref idref="CBFU_epub-46" />
-		<itemref idref="CBFU_epub-47" />
-		<itemref idref="CBFU_epub-48" />
-		<itemref idref="CBFU_epub-49" />
+
 	</spine>
 
 </package>

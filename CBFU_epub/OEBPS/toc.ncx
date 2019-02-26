@@ -1,15 +1,731 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
 	<head>
-		<meta name="dtb:uid" content="urn:uuid:526d39ae-8c4b-4cdf-baf5-3797b68aac46" />
-		<meta name="dtb:depth" content="0" />
-		<meta name="dtb:totalPageCount" content="0" />
-		<meta name="dtb:maxPageNumber" content="0" />
+		<meta name="dtb:uid" content="CBFU2008" />
 	</head>
 	<docTitle>
 		<text>CBFU_epub</text>
 	</docTitle>
 	<navMap>
-		<navPoint id="navpoint1" playOrder="1"><navLabel><text>CBFU_epub</text></navLabel><content src="CBFU_epub.xhtml" /></navPoint>
+		<navPoint id="navPoint0" playOrder="0">
+			<navLabel>
+				<text>Introduction</text>
+			</navLabel>
+			<content src="CBFU_epub-2.xhtml#toc-epubtools-32" />
+		</navPoint>
+		<navPoint id="navPoint1" playOrder="1">
+			<navLabel>
+				<text>Définitions</text>
+			</navLabel>
+			<content src="CBFU_epub-3.xhtml#toc-epubtools-187" />
+		</navPoint>
+		<navPoint id="navPoint2" playOrder="2">
+			<navLabel>
+				<text>Notes générales</text>
+			</navLabel>
+			<content src="CBFU_epub-4.xhtml#toc-epubtools-99" />
+		</navPoint>
+		<navPoint id="navPoint3" playOrder="3">
+			<navLabel>
+				<text>Tableau de classement des 64 caractères braille</text>
+			</navLabel>
+			<content src="CBFU_epub-5.xhtml#toc-epubtools-136" />
+		</navPoint>
+		<navPoint id="navPoint4" playOrder="4">
+			<navLabel>
+				<text>Tableaux des symboles braille</text>
+			</navLabel>
+			<content src="CBFU_epub-6.xhtml#toc-epubtools-137" />
+			<navPoint id="navPoint5" playOrder="5">
+				<navLabel>
+					<text>Tableau 1 - Les 63 symboles</text>
+				</navLabel>
+				<content src="CBFU_epub-7.xhtml#toc-epubtools-138" />
+			</navPoint>
+			<navPoint id="navPoint6" playOrder="6">
+				<navLabel>
+					<text>Tableau 2 - Les chiffres et les signes arithmétiques de base</text>
+				</navLabel>
+				<content src="CBFU_epub-8.xhtml#toc-epubtools-139" />
+			</navPoint>
+			<navPoint id="navPoint7" playOrder="7">
+				<navLabel>
+					<text>Tableau 2a - Les chiffres Louis Braille</text>
+				</navLabel>
+				<content src="CBFU_epub-9.xhtml#toc-epubtools-140" />
+			</navPoint>
+			<navPoint id="navPoint8" playOrder="8">
+				<navLabel>
+					<text>Tableau 3 - Les symboles composés</text>
+				</navLabel>
+				<content src="CBFU_epub-10.xhtml#toc-epubtools-2" />
+			</navPoint>
+		</navPoint>
+		<navPoint id="navPoint9" playOrder="9">
+			<navLabel>
+				<text>Première partie - Le code braille de base</text>
+			</navLabel>
+			<content src="CBFU_epub-11.xhtml#toc-epubtools-3" />
+			<navPoint id="navPoint10" playOrder="10">
+				<navLabel>
+					<text>1.1 Les majuscules</text>
+				</navLabel>
+				<content src="CBFU_epub-11.xhtml#toc-epubtools-4" />
+				<navPoint id="navPoint11" playOrder="11">
+					<navLabel>
+						<text>a) Mots</text>
+					</navLabel>
+					<content src="CBFU_epub-11.xhtml#toc-epubtools-5" />
+				</navPoint>
+				<navPoint id="navPoint12" playOrder="12">
+					<navLabel>
+						<text>b) Sigles</text>
+					</navLabel>
+					<content src="CBFU_epub-11.xhtml#toc-epubtools-6" />
+				</navPoint>
+				<navPoint id="navPoint13" playOrder="13">
+					<navLabel>
+						<text>c) Mélange de majuscules et minuscules à l'intérieur d'un mot</text>
+					</navLabel>
+					<content src="CBFU_epub-11.xhtml#toc-epubtools-7" />
+				</navPoint>
+				<navPoint id="navPoint14" playOrder="14">
+					<navLabel>
+						<text>d) Voyelles majuscules accentuées</text>
+					</navLabel>
+					<content src="CBFU_epub-11.xhtml#toc-epubtools-8" />
+				</navPoint>
+			</navPoint>
+			<navPoint id="navPoint15" playOrder="15">
+				<navLabel>
+					<text>1.2 Les chiffres et les signes arithmétiques de base</text>
+				</navLabel>
+				<content src="CBFU_epub-12.xhtml#toc-epubtools-9" />
+				<navPoint id="navPoint16" playOrder="16">
+					<navLabel>
+						<text>a) Généralités</text>
+					</navLabel>
+					<content src="CBFU_epub-12.xhtml#toc-epubtools-10" />
+				</navPoint>
+				<navPoint id="navPoint17" playOrder="17">
+					<navLabel>
+						<text>b) Usage et portée du modificateur mathématique</text>
+					</navLabel>
+					<content src="CBFU_epub-12.xhtml#toc-epubtools-11" />
+				</navPoint>
+				<navPoint id="navPoint18" playOrder="18">
+					<navLabel>
+						<text>c) Mélange de chiffres et de lettres</text>
+					</navLabel>
+					<content src="CBFU_epub-12.xhtml#toc-epubtools-12" />
+				</navPoint>
+				<navPoint id="navPoint19" playOrder="19">
+					<navLabel>
+						<text>d) Modificateur mathématique et braille abrégé</text>
+					</navLabel>
+					<content src="CBFU_epub-12.xhtml#toc-epubtools-13" />
+				</navPoint>
+				<navPoint id="navPoint20" playOrder="20">
+					<navLabel>
+						<text>e) Espace ou point&#160;entre les chiffres</text>
+					</navLabel>
+					<content src="CBFU_epub-12.xhtml#toc-epubtools-14" />
+				</navPoint>
+				<navPoint id="navPoint21" playOrder="21">
+					<navLabel>
+						<text>f) Barre oblique</text>
+					</navLabel>
+					<content src="CBFU_epub-12.xhtml#toc-epubtools-15" />
+				</navPoint>
+				<navPoint id="navPoint22" playOrder="22">
+					<navLabel>
+						<text>g) Symboles pour cent et pour mille</text>
+					</navLabel>
+					<content src="CBFU_epub-12.xhtml#toc-epubtools-16" />
+				</navPoint>
+			</navPoint>
+			<navPoint id="navPoint23" playOrder="23">
+				<navLabel>
+					<text>1.3 Espacement avec les ponctuations</text>
+				</navLabel>
+				<content src="CBFU_epub-13.xhtml#toc-epubtools-17" />
+				<navPoint id="navPoint24" playOrder="24">
+					<navLabel>
+						<text>a) Après un mot</text>
+					</navLabel>
+					<content src="CBFU_epub-13.xhtml#toc-epubtools-18" />
+				</navPoint>
+				<navPoint id="navPoint25" playOrder="25">
+					<navLabel>
+						<text>b) De part et d'autre d'un mot ou groupe de mots</text>
+					</navLabel>
+					<content src="CBFU_epub-13.xhtml#toc-epubtools-19" />
+				</navPoint>
+				<navPoint id="navPoint26" playOrder="26">
+					<navLabel>
+						<text>c) Tirets</text>
+					</navLabel>
+					<content src="CBFU_epub-13.xhtml#toc-epubtools-20" />
+				</navPoint>
+			</navPoint>
+			<navPoint id="navPoint27" playOrder="27">
+				<navLabel>
+					<text>1.4 Les guillemets</text>
+				</navLabel>
+				<content src="CBFU_epub-15.xhtml#toc-epubtools-21" />
+			</navPoint>
+			<navPoint id="navPoint28" playOrder="28">
+				<navLabel>
+					<text>1.5 L'indicateur d'exposant ou d'élévation</text>
+				</navLabel>
+				<content src="CBFU_epub-16.xhtml#toc-epubtools-22" />
+				<navPoint id="navPoint29" playOrder="29">
+					<navLabel>
+						<text>a) Rôle de l'indicateur</text>
+					</navLabel>
+					<content src="CBFU_epub-16.xhtml#toc-epubtools-23" />
+				</navPoint>
+				<navPoint id="navPoint30" playOrder="30">
+					<navLabel>
+						<text>b) Portée de l'indicateur</text>
+					</navLabel>
+					<content src="CBFU_epub-16.xhtml#toc-epubtools-24" />
+				</navPoint>
+				<navPoint id="navPoint31" playOrder="31">
+					<navLabel>
+						<text>c) Chiffres suivant un indicateur d'exposant</text>
+					</navLabel>
+					<content src="CBFU_epub-16.xhtml#toc-epubtools-25" />
+				</navPoint>
+			</navPoint>
+			<navPoint id="navPoint32" playOrder="32">
+				<navLabel>
+					<text>1.6 Les abréviations</text>
+				</navLabel>
+				<content src="CBFU_epub-17.xhtml#toc-epubtools-26" />
+			</navPoint>
+			<navPoint id="navPoint33" playOrder="33">
+				<navLabel>
+					<text>1.7 L'indicateur de valeur de base</text>
+				</navLabel>
+				<content src="CBFU_epub-18.xhtml#toc-epubtools-27" />
+				<navPoint id="navPoint34" playOrder="34">
+					<navLabel>
+						<text>a) Avec le braille abrégé</text>
+					</navLabel>
+					<content src="CBFU_epub-18.xhtml#toc-epubtools-28" />
+				</navPoint>
+				<navPoint id="navPoint35" playOrder="35">
+					<navLabel>
+						<text>b) Avec les chiffres</text>
+					</navLabel>
+					<content src="CBFU_epub-18.xhtml#toc-epubtools-29" />
+				</navPoint>
+				<navPoint id="navPoint36" playOrder="36">
+					<navLabel>
+						<text>c) Emplacement et portée</text>
+					</navLabel>
+					<content src="CBFU_epub-18.xhtml#toc-epubtools-30" />
+				</navPoint>
+			</navPoint>
+			<navPoint id="navPoint37" playOrder="37">
+				<navLabel>
+					<text>1.8 Les expressions informatiques usuelles</text>
+				</navLabel>
+				<content src="CBFU_epub-19.xhtml#toc-epubtools-31" />
+			</navPoint>
+			<navPoint id="navPoint38" playOrder="38">
+				<navLabel>
+					<text>1.9 Les modificateurs 1 et 2</text>
+				</navLabel>
+				<content src="CBFU_epub-20.xhtml#toc-epubtools-33" />
+			</navPoint>
+		</navPoint>
+		<navPoint id="navPoint39" playOrder="39">
+			<navLabel>
+				<text>Deuxième partie - Les règles complémentaires</text>
+			</navLabel>
+			<content src="CBFU_epub-22.xhtml#toc-epubtools-34" />
+			<navPoint id="navPoint40" playOrder="40">
+				<navLabel>
+					<text>Préambule</text>
+				</navLabel>
+				<content src="CBFU_epub-22.xhtml#toc-epubtools-35" />
+			</navPoint>
+			<navPoint id="navPoint41" playOrder="41">
+				<navLabel>
+					<text>Notes préliminaires</text>
+				</navLabel>
+				<content src="CBFU_epub-23.xhtml#toc-epubtools-36" />
+			</navPoint>
+			<navPoint id="navPoint42" playOrder="42">
+				<navLabel>
+					<text>2.1 Les majuscules</text>
+				</navLabel>
+				<content src="CBFU_epub-24.xhtml#toc-epubtools-37" />
+				<navPoint id="navPoint43" playOrder="43">
+					<navLabel>
+						<text>a) Initiale ou mot en majuscule</text>
+					</navLabel>
+					<content src="CBFU_epub-24.xhtml#toc-epubtools-38" />
+				</navPoint>
+				<navPoint id="navPoint44" playOrder="44">
+					<navLabel>
+						<text>b) Passage entièrement en majuscule</text>
+					</navLabel>
+					<content src="CBFU_epub-24.xhtml#toc-epubtools-39" />
+				</navPoint>
+				<navPoint id="navPoint45" playOrder="45">
+					<navLabel>
+						<text>c) Mélange de lettres majuscules et minuscules</text>
+					</navLabel>
+					<content src="CBFU_epub-24.xhtml#toc-epubtools-40" />
+				</navPoint>
+				<navPoint id="navPoint46" playOrder="46">
+					<navLabel>
+						<text>d) Sigles</text>
+					</navLabel>
+					<content src="CBFU_epub-24.xhtml#toc-epubtools-41" />
+				</navPoint>
+			</navPoint>
+			<navPoint id="navPoint47" playOrder="47">
+				<navLabel>
+					<text>2.2 Les mises en évidence</text>
+				</navLabel>
+				<content src="CBFU_epub-25.xhtml#toc-epubtools-42" />
+				<navPoint id="navPoint48" playOrder="48">
+					<navLabel>
+						<text>a) Indicateur général de mise en évidence</text>
+					</navLabel>
+					<content src="CBFU_epub-25.xhtml#toc-epubtools-43" />
+				</navPoint>
+				<navPoint id="navPoint49" playOrder="49">
+					<navLabel>
+						<text>b) Mot mis en évidence</text>
+					</navLabel>
+					<content src="CBFU_epub-25.xhtml#toc-epubtools-44" />
+				</navPoint>
+				<navPoint id="navPoint50" playOrder="50">
+					<navLabel>
+						<text>c) Passage mis en évidence</text>
+					</navLabel>
+					<content src="CBFU_epub-25.xhtml#toc-epubtools-45" />
+				</navPoint>
+				<navPoint id="navPoint51" playOrder="51">
+					<navLabel>
+						<text>d) Mise en évidence à l'intérieur d'un mot</text>
+					</navLabel>
+					<content src="CBFU_epub-25.xhtml#toc-epubtools-46" />
+				</navPoint>
+				<navPoint id="navPoint52" playOrder="52">
+					<navLabel>
+						<text>e) Mises en évidence multiples à l'intérieur d'un mot</text>
+					</navLabel>
+					<content src="CBFU_epub-25.xhtml#toc-epubtools-47" />
+				</navPoint>
+				<navPoint id="navPoint53" playOrder="53">
+					<navLabel>
+						<text>f) Mises en évidence de deuxième et troisième types</text>
+					</navLabel>
+					<content src="CBFU_epub-25.xhtml#toc-epubtools-48" />
+				</navPoint>
+				<navPoint id="navPoint54" playOrder="54">
+					<navLabel>
+						<text>g) Autres possibilités</text>
+					</navLabel>
+					<content src="CBFU_epub-25.xhtml#toc-epubtools-49" />
+				</navPoint>
+			</navPoint>
+			<navPoint id="navPoint55" playOrder="55">
+				<navLabel>
+					<text>2.3 Les guillemets</text>
+				</navLabel>
+				<content src="CBFU_epub-26.xhtml#toc-epubtools-50" />
+				<navPoint id="navPoint56" playOrder="56">
+					<navLabel>
+						<text>a) Guillemets de deuxième et troisième niveaux</text>
+					</navLabel>
+					<content src="CBFU_epub-26.xhtml#toc-epubtools-51" />
+				</navPoint>
+				<navPoint id="navPoint57" playOrder="57">
+					<navLabel>
+						<text>b) Emploi</text>
+					</navLabel>
+					<content src="CBFU_epub-26.xhtml#toc-epubtools-52" />
+				</navPoint>
+			</navPoint>
+			<navPoint id="navPoint58" playOrder="58">
+				<navLabel>
+					<text>2.4 L'indicateur de changement de code, l'indicateur de fin</text>
+				</navLabel>
+				<content src="CBFU_epub-27.xhtml#toc-epubtools-53" />
+				<navPoint id="navPoint59" playOrder="59">
+					<navLabel>
+						<text>a) L'indicateur de changement de code</text>
+					</navLabel>
+					<content src="CBFU_epub-27.xhtml#toc-epubtools-54" />
+				</navPoint>
+				<navPoint id="navPoint60" playOrder="60">
+					<navLabel>
+						<text>b) L'indicateur de fin</text>
+					</navLabel>
+					<content src="CBFU_epub-27.xhtml#toc-epubtools-55" />
+				</navPoint>
+			</navPoint>
+			<navPoint id="navPoint61" playOrder="61">
+				<navLabel>
+					<text>2.5 Les lettres étrangères</text>
+				</navLabel>
+				<content src="CBFU_epub-28.xhtml#toc-epubtools-56" />
+				<navPoint id="navPoint62" playOrder="62">
+					<navLabel>
+						<text>Tableau des principales lettres étrangères</text>
+					</navLabel>
+					<content src="CBFU_epub-28.xhtml#toc-epubtools-57" />
+				</navPoint>
+			</navPoint>
+			<navPoint id="navPoint63" playOrder="63">
+				<navLabel>
+					<text>2.6 Les incidences sur le braille abrégé</text>
+				</navLabel>
+				<content src="CBFU_epub-29.xhtml#toc-epubtools-58" />
+			</navPoint>
+		</navPoint>
+		<navPoint id="navPoint64" playOrder="64">
+			<navLabel>
+				<text>Troisième partie - Présentation des textes en braille</text>
+			</navLabel>
+			<content src="CBFU_epub-31.xhtml#toc-epubtools-60" />
+			<navPoint id="navPoint65" playOrder="65">
+				<navLabel>
+					<text>Introduction</text>
+				</navLabel>
+				<content src="CBFU_epub-31.xhtml#toc-epubtools-61" />
+			</navPoint>
+			<navPoint id="navPoint66" playOrder="66">
+				<navLabel>
+					<text>3.1 Les éléments de mise en page braille</text>
+				</navLabel>
+				<content src="CBFU_epub-32.xhtml#toc-epubtools-62" />
+				<navPoint id="navPoint67" playOrder="67">
+					<navLabel>
+						<text>a) Mode centrage</text>
+					</navLabel>
+					<content src="CBFU_epub-32.xhtml#toc-epubtools-63" />
+				</navPoint>
+				<navPoint id="navPoint68" playOrder="68">
+					<navLabel>
+						<text>b) Mode paragraphe ou alinéa</text>
+					</navLabel>
+					<content src="CBFU_epub-32.xhtml#toc-epubtools-64" />
+				</navPoint>
+				<navPoint id="navPoint69" playOrder="69">
+					<navLabel>
+						<text>c) Mode poésie ou liste</text>
+					</navLabel>
+					<content src="CBFU_epub-32.xhtml#toc-epubtools-65" />
+				</navPoint>
+				<navPoint id="navPoint70" playOrder="70">
+					<navLabel>
+						<text>d) Mode bloc</text>
+					</navLabel>
+					<content src="CBFU_epub-32.xhtml#toc-epubtools-66" />
+				</navPoint>
+				<navPoint id="navPoint71" playOrder="71">
+					<navLabel>
+						<text>e) Passage d'un mode à un autre</text>
+					</navLabel>
+					<content src="CBFU_epub-32.xhtml#toc-epubtools-67" />
+				</navPoint>
+				<navPoint id="navPoint72" playOrder="72">
+					<navLabel>
+						<text>f) Lignes vides, sauts de page et tabulations</text>
+					</navLabel>
+					<content src="CBFU_epub-32.xhtml#toc-epubtools-68" />
+				</navPoint>
+				<navPoint id="navPoint73" playOrder="73">
+					<navLabel>
+						<text>g) Séparation des mots, coupures, lignes veuves et orphelines</text>
+					</navLabel>
+					<content src="CBFU_epub-32.xhtml#toc-epubtools-69" />
+				</navPoint>
+			</navPoint>
+			<navPoint id="navPoint74" playOrder="74">
+				<navLabel>
+					<text>3.2 Les titres</text>
+				</navLabel>
+				<content src="CBFU_epub-33.xhtml#toc-epubtools-70" />
+				<navPoint id="navPoint75" playOrder="75">
+					<navLabel>
+						<text>a) Titre de premier niveau</text>
+					</navLabel>
+					<content src="CBFU_epub-33.xhtml#toc-epubtools-71" />
+				</navPoint>
+				<navPoint id="navPoint76" playOrder="76">
+					<navLabel>
+						<text>b) Titre de deuxième niveau</text>
+					</navLabel>
+					<content src="CBFU_epub-33.xhtml#toc-epubtools-72" />
+				</navPoint>
+				<navPoint id="navPoint77" playOrder="77">
+					<navLabel>
+						<text>c) Titres de troisième, quatrième et cinquième niveaux</text>
+					</navLabel>
+					<content src="CBFU_epub-33.xhtml#toc-epubtools-73" />
+				</navPoint>
+			</navPoint>
+			<navPoint id="navPoint78" playOrder="78">
+				<navLabel>
+					<text>3.3 Les notes du transcripteur contextuelles</text>
+				</navLabel>
+				<content src="CBFU_epub-34.xhtml#toc-epubtools-74" />
+				<navPoint id="navPoint79" playOrder="79">
+					<navLabel>
+						<text>a) Généralités</text>
+					</navLabel>
+					<content src="CBFU_epub-34.xhtml#toc-epubtools-75" />
+				</navPoint>
+				<navPoint id="navPoint80" playOrder="80">
+					<navLabel>
+						<text>b) Notes en retrait</text>
+					</navLabel>
+					<content src="CBFU_epub-34.xhtml#toc-epubtools-76" />
+				</navPoint>
+				<navPoint id="navPoint81" playOrder="81">
+					<navLabel>
+						<text>c) Notes incises</text>
+					</navLabel>
+					<content src="CBFU_epub-34.xhtml#toc-epubtools-77" />
+				</navPoint>
+			</navPoint>
+			<navPoint id="navPoint82" playOrder="82">
+				<navLabel>
+					<text>3.4 La pagination</text>
+				</navLabel>
+				<content src="CBFU_epub-35.xhtml#toc-epubtools-78" />
+				<navPoint id="navPoint83" playOrder="83">
+					<navLabel>
+						<text>a) Pagination braille</text>
+					</navLabel>
+					<content src="CBFU_epub-35.xhtml#toc-epubtools-79" />
+				</navPoint>
+				<navPoint id="navPoint84" playOrder="84">
+					<navLabel>
+						<text>b) Pagination de référence</text>
+					</navLabel>
+					<content src="CBFU_epub-35.xhtml#toc-epubtools-80" />
+				</navPoint>
+				<navPoint id="navPoint85" playOrder="85">
+					<navLabel>
+						<text>Seconde méthode</text>
+					</navLabel>
+					<content src="CBFU_epub-35.xhtml#toc-epubtools-81" />
+				</navPoint>
+			</navPoint>
+			<navPoint id="navPoint86" playOrder="86">
+				<navLabel>
+					<text>3.5 Format et étiquetage des volumes braille</text>
+				</navLabel>
+				<content src="CBFU_epub-36.xhtml#toc-epubtools-82" />
+			</navPoint>
+			<navPoint id="navPoint87" playOrder="87">
+				<navLabel>
+					<text>3.6 Les pages préliminaires</text>
+				</navLabel>
+				<content src="CBFU_epub-37.xhtml#toc-epubtools-83" />
+				<navPoint id="navPoint88" playOrder="88">
+					<navLabel>
+						<text>a) Page de titre</text>
+					</navLabel>
+					<content src="CBFU_epub-37.xhtml#toc-epubtools-84" />
+				</navPoint>
+				<navPoint id="navPoint89" playOrder="89">
+					<navLabel>
+						<text>b) Verso de la page de titre</text>
+					</navLabel>
+					<content src="CBFU_epub-37.xhtml#toc-epubtools-85" />
+				</navPoint>
+				<navPoint id="navPoint90" playOrder="90">
+					<navLabel>
+						<text>c) Quatrième de couverture</text>
+					</navLabel>
+					<content src="CBFU_epub-37.xhtml#toc-epubtools-86" />
+				</navPoint>
+				<navPoint id="navPoint91" playOrder="91">
+					<navLabel>
+						<text>d) Notes du transcripteur</text>
+					</navLabel>
+					<content src="CBFU_epub-37.xhtml#toc-epubtools-87" />
+				</navPoint>
+				<navPoint id="navPoint92" playOrder="92">
+					<navLabel>
+						<text>e) Autres rubriques</text>
+					</navLabel>
+					<content src="CBFU_epub-37.xhtml#toc-epubtools-88" />
+				</navPoint>
+			</navPoint>
+			<navPoint id="navPoint93" playOrder="93">
+				<navLabel>
+					<text>3.7 La table des matières</text>
+				</navLabel>
+				<content src="CBFU_epub-38.xhtml#toc-epubtools-89" />
+				<navPoint id="navPoint94" playOrder="94">
+					<navLabel>
+						<text>a) Table générale</text>
+					</navLabel>
+					<content src="CBFU_epub-38.xhtml#toc-epubtools-90" />
+				</navPoint>
+				<navPoint id="navPoint95" playOrder="95">
+					<navLabel>
+						<text>b) Table spécifique</text>
+					</navLabel>
+					<content src="CBFU_epub-38.xhtml#toc-epubtools-91" />
+				</navPoint>
+			</navPoint>
+			<navPoint id="navPoint96" playOrder="96">
+				<navLabel>
+					<text>3.8 Les tableaux</text>
+				</navLabel>
+				<content src="CBFU_epub-39.xhtml#toc-epubtools-92" />
+				<navPoint id="navPoint97" playOrder="97">
+					<navLabel>
+						<text>a) Tableaux en colonnes</text>
+					</navLabel>
+					<content src="CBFU_epub-39.xhtml#toc-epubtools-93" />
+				</navPoint>
+				<navPoint id="navPoint98" playOrder="98">
+					<navLabel>
+						<text>b) Tableaux en lignes</text>
+					</navLabel>
+					<content src="CBFU_epub-39.xhtml#toc-epubtools-94" />
+				</navPoint>
+				<navPoint id="navPoint99" playOrder="99">
+					<navLabel>
+						<text>c) Tableaux par renfoncements progressifs</text>
+					</navLabel>
+					<content src="CBFU_epub-39.xhtml#toc-epubtools-95" />
+				</navPoint>
+				<navPoint id="navPoint100" playOrder="100">
+					<navLabel>
+						<text>d) Tableaux en titres et paragraphes</text>
+					</navLabel>
+					<content src="CBFU_epub-39.xhtml#toc-epubtools-96" />
+				</navPoint>
+				<navPoint id="navPoint101" playOrder="101">
+					<navLabel>
+						<text>e) Tableaux en liste hiérarchisée</text>
+					</navLabel>
+					<content src="CBFU_epub-39.xhtml#toc-epubtools-97" />
+				</navPoint>
+				<navPoint id="navPoint102" playOrder="102">
+					<navLabel>
+						<text>f) Tableaux hybrides</text>
+					</navLabel>
+					<content src="CBFU_epub-39.xhtml#toc-epubtools-98" />
+				</navPoint>
+			</navPoint>
+			<navPoint id="navPoint103" playOrder="103">
+				<navLabel>
+					<text>3.9 Les notes de bas de page et notes de fin</text>
+				</navLabel>
+				<content src="CBFU_epub-41.xhtml#toc-epubtools-101" />
+				<navPoint id="navPoint104" playOrder="104">
+					<navLabel>
+						<text>a) Appel de note</text>
+					</navLabel>
+					<content src="CBFU_epub-41.xhtml#toc-epubtools-102" />
+				</navPoint>
+				<navPoint id="navPoint105" playOrder="105">
+					<navLabel>
+						<text>b) Texte de la note</text>
+					</navLabel>
+					<content src="CBFU_epub-41.xhtml#toc-epubtools-103" />
+				</navPoint>
+				<navPoint id="navPoint106" playOrder="106">
+					<navLabel>
+						<text>c) Appels multiples pour une même note</text>
+					</navLabel>
+					<content src="CBFU_epub-41.xhtml#toc-epubtools-104" />
+				</navPoint>
+				<navPoint id="navPoint107" playOrder="107">
+					<navLabel>
+						<text>d) Notes abondantes</text>
+					</navLabel>
+					<content src="CBFU_epub-41.xhtml#toc-epubtools-105" />
+				</navPoint>
+				<navPoint id="navPoint108" playOrder="108">
+					<navLabel>
+						<text>e) Notes marginales</text>
+					</navLabel>
+					<content src="CBFU_epub-41.xhtml#toc-epubtools-106" />
+				</navPoint>
+			</navPoint>
+			<navPoint id="navPoint109" playOrder="109">
+				<navLabel>
+					<text>3.10 Les encadrés</text>
+				</navLabel>
+				<content src="CBFU_epub-42.xhtml#toc-epubtools-107" />
+			</navPoint>
+			<navPoint id="navPoint110" playOrder="110">
+				<navLabel>
+					<text>3.11 La poésie</text>
+				</navLabel>
+				<content src="CBFU_epub-43.xhtml#toc-epubtools-108" />
+			</navPoint>
+			<navPoint id="navPoint111" playOrder="111">
+				<navLabel>
+					<text>3.12 Le théâtre</text>
+				</navLabel>
+				<content src="CBFU_epub-44.xhtml#toc-epubtools-109" />
+				<navPoint id="navPoint112" playOrder="112">
+					<navLabel>
+						<text>a) Éléments d'une pièce de théâtre</text>
+					</navLabel>
+					<content src="CBFU_epub-44.xhtml#toc-epubtools-110" />
+				</navPoint>
+				<navPoint id="navPoint113" playOrder="113">
+					<navLabel>
+						<text>b) Théâtre en prose</text>
+					</navLabel>
+					<content src="CBFU_epub-44.xhtml#toc-epubtools-111" />
+				</navPoint>
+				<navPoint id="navPoint114" playOrder="114">
+					<navLabel>
+						<text>c) Théâtre en vers</text>
+					</navLabel>
+					<content src="CBFU_epub-44.xhtml#toc-epubtools-115" />
+				</navPoint>
+			</navPoint>
+			<navPoint id="navPoint115" playOrder="115">
+				<navLabel>
+					<text>3.13 Les textes à lignes numérotées</text>
+				</navLabel>
+				<content src="CBFU_epub-45.xhtml#toc-epubtools-122" />
+				<navPoint id="navPoint116" playOrder="116">
+					<navLabel>
+						<text>a) Numérotation dans la marge de gauche</text>
+					</navLabel>
+					<content src="CBFU_epub-45.xhtml#toc-epubtools-123" />
+				</navPoint>
+				<navPoint id="navPoint117" playOrder="117">
+					<navLabel>
+						<text>b) Numérotation dans la marge de droite</text>
+					</navLabel>
+					<content src="CBFU_epub-45.xhtml#toc-epubtools-124" />
+				</navPoint>
+				<navPoint id="navPoint118" playOrder="118">
+					<navLabel>
+						<text>c) Numérotation en retrait</text>
+					</navLabel>
+					<content src="CBFU_epub-45.xhtml#toc-epubtools-236" />
+				</navPoint>
+			</navPoint>
+			<navPoint id="navPoint119" playOrder="119">
+				<navLabel>
+					<text>3.14 Les bandes dessinées</text>
+				</navLabel>
+				<content src="CBFU_epub-46.xhtml#toc-epubtools-125" />
+			</navPoint>
+		</navPoint>
 	</navMap>
 </ncx>

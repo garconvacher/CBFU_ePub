@@ -3,7 +3,7 @@
 <html xmlns:epub="http://www.idpf.org/2007/ops" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr-FR" lang="fr-FR">
 
 <head>
-    <title>CBFU_epub-39</title>
+    <title>3.8 Les tableaux</title>
     <link id="ePub_CBFU" href="css/ePub_CBFU.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -37,17 +37,16 @@
                 en liste hiérarchisée.
             </li>
         </ul>
-        <p>Un tableau est isolé du texte environnant par une ligne vide (voir 3.1&#160;f) «&#160;Lignes vides, sauts de page et tabulations
-            »), à moins qu'il se retrouve naturellement en haut d'une page braille.</p>
+        <p>Un tableau est isolé du texte environnant par une ligne vide (voir 3.1&#160;f) «&#160;Lignes vides, sauts de page et tabulations&#160;»), à moins qu'il se retrouve naturellement en haut d'une page braille.</p>
         <p>Une note du transcripteur informe le lecteur de la technique de transcription choisie ainsi que des adaptations utilisées
             (omissions, codages d'en-têtes, etc.).</p>
         <p>Les symboles braille suivants peuvent être utilisés pour représenter certains éléments particuliers dans un tableau&#160;:</p>
         <p>
-            <span class="BrailleDirect">⠿⠿</span> (points 1-2-3-4-5-6, 1-2-3-4-5-6)&#160;: élément absent dans une cellule&#160;;</p>
+            <span class="BrailleDirectTexte">⠿⠿</span> (points&#160;1-2-3-4-5-6, 1-2-3-4-5-6)&#160;: élément absent dans une cellule&#160;;</p>
         <p>
-            <span class="BrailleDirect">⠠⠤⠄</span> (points 6, 3-6, 3)&#160;: espace à remplir&#160;;</p>
+            <span class="BrailleDirectTexte">⠠⠤⠄</span> (points&#160;6, 3-6, 3)&#160;: espace à remplir&#160;;</p>
         <p>
-            <span class="BrailleDirect">⠯⠽</span> (points 1-2-3-4-6, 1-3-4-5-6)&#160;: case à cocher.</p>
+            <span class="BrailleDirectTexte">⠯⠽</span> (points&#160;1-2-3-4-6, 1-3-4-5-6)&#160;: case à cocher.</p>
 
         <h3 id="toc-epubtools-93">
             <span id="page93" title="93" epub:type="pagebreak" role="doc-pagebreak"></span>a) Tableaux en colonnes</h3>
@@ -82,12 +81,12 @@
 
         <ul>
             <li class="liste">les en-têtes, abrégés ou non&#160;;</li>
-            <li class="liste">éventuellement, un filet horizontal composé d'une suite de caractères (points 2-5) limité à la largeur de chaque colonne
+            <li class="liste">éventuellement, un filet horizontal composé d'une suite de caractères (points&#160;2-5) limité à la largeur de chaque colonne
                 pour séparer les en-têtes de colonnes des données du tableau&#160;;</li>
             <li class="liste">les données du tableau, alignées horizontalement.</li>
         </ul>
         <p>
-            <b class="gras _idGenCharOverride-3">Remarques&#160;:</b>
+            <b class="gras">Remarques&#160;:</b>
         </p>
 
         <ul>
@@ -97,7 +96,7 @@
             </li>
             <li class="liste">
                 <span class="CharOverride-3">Lorsque trois cellules vides ou plus séparent la fin d'une donnée du début de la colonne suivante, on comble cet espace
-                    par des points de conduite (point 3) précédés et suivis d'une cellule vide.</span>
+                    par des points&#160;de conduite (point&#160;3) précédés et suivis d'une cellule vide.</span>
             </li>
         </ul>
         <p>
@@ -109,42 +108,42 @@
                 <thead>
                     <tr>
                         <th rowspan="2" />
-                        <th colspan="2"><i>Mode conditionnel</i></th>
+                        <th colspan="2" scope="col"><i>Mode conditionnel</i></th>
                     </tr>
                     <tr>
-                        <th>Présent</th>
-                        <th><i>Passé</i></th>
+                        <th scope="col">Présent</th>
+                        <th scope="col"><i>Passé</i></th>
                     </tr>
                 </thead>
 
                 <tbody>
                     <tr>
-                        <td>je</td>
+                        <th scope="row">je</th>
                         <td>saurais</td>
                         <td><i>aurais su</i></td>
                     </tr>
                     <tr>
-                        <td>tu</td>
+                        <th scope="row">tu</th>
                         <td>saurais</td>
                         <td><i>aurais su</i></td>
                     </tr>
                     <tr>
-                        <td>il/elle</td>
+                        <th scope="row">il/elle</th>
                         <td>saurait</td>
                         <td><i>aurait su</i></td>
                     </tr>
                     <tr>
-                        <td>nous</td>
+                        <th scope="row">nous</th>
                         <td>saurions</td>
                         <td><i>aurions su</i></td>
                     </tr>
                     <tr>
-                        <td>vous</td>
+                        <th scope="row">vous</th>
                         <td>sauriez</td>
                         <td><i>auriez su</i></td>
                     </tr>
                     <tr>
-                        <td>ils/elles</td>
+                        <th scope="row">ils/elles</th>
                         <td>sauraient</td>
                         <td><i>auraient su</i></td>
                     </tr>
@@ -184,7 +183,7 @@
                 présentation en mode liste,
             </li>
             <li class="liste">
-                <span class="CharOverride-3">utilisation du symbole deux-points comme séparateur après les en-têtes et du point-virgule entre les autres éléments,
+                <span class="CharOverride-3">utilisation du symbole deux-points&#160;comme séparateur après les en-têtes et du point-virgule entre les autres éléments,
                     le dernier élément étant éventuellement suivi d'un point.</span>
             </li>
         </ul>
@@ -205,21 +204,21 @@
                 <thead>
                     <tr>
                         <td>Femmes</td>
-                        <td>Belgique</td>
-                        <td>Allemagne</td>
-                        <td>Estonie</td>
-                        <td>France</td>
-                        <td>Hongrie</td>
-                        <td>Slovénie</td>
-                        <td>Finlande</td>
-                        <td>Suède</td>
-                        <td>Royaume-Uni</td>
-                        <td>Norvège</td>
+                        <th scope="col">Belgique</th>
+                        <th scope="col">Allemagne</th>
+                        <th scope="col">Estonie</th>
+                        <th scope="col">France</th>
+                        <th scope="col">Hongrie</th>
+                        <th scope="col">Slovénie</th>
+                        <th scope="col">Finlande</th>
+                        <th scope="col">Suède</th>
+                        <th scope="col">Royaume-Uni</th>
+                        <th scope="col">Norvège</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Temps libre et non spécifié</td>
+                        <th scope="row">Temps libre et non spécifié</th>
                         <td>3:51</td>
                         <td>4:49</td>
                         <td>4:00</td>
@@ -232,7 +231,7 @@
                         <td>5:22</td>
                     </tr>
                     <tr>
-                        <td>Repas, soins personnels</td>
+                        <th scope="row">Repas, soins personnels</th>
                         <td>2:36</td>
                         <td>2:31</td>
                         <td>2:06</td>
@@ -245,7 +244,7 @@
                         <td>2:02</td>
                     </tr>
                     <tr>
-                        <td>Sommeil</td>
+                        <th scope="row">Sommeil</th>
                         <td>8:16</td>
                         <td>8:11</td>
                         <td>8:23</td>
@@ -258,7 +257,7 @@
                         <td>8:07</td>
                     </tr>
                     <tr>
-                        <td>Déplacements</td>
+                        <th scope="row">Déplacements</th>
                         <td>1:30</td>
                         <td>1:27</td>
                         <td>1:15</td>
@@ -271,7 +270,7 @@
                         <td>1:17</td>
                     </tr>
                     <tr>
-                        <td>Travail domestique</td>
+                        <th scope="row">Travail domestique</th>
                         <td>3:52</td>
                         <td>3:11</td>
                         <td>4:04</td>
@@ -284,7 +283,7 @@
                         <td>3:26</td>
                     </tr>
                     <tr>
-                        <td>Travail rémunéré, études</td>
+                        <th scope="row">Travail rémunéré, études</th>
                         <td>3:53</td>
                         <td>3:52</td>
                         <td>4:13</td>
@@ -297,7 +296,7 @@
                         <td>3:46</td>
                     </tr>
                     <tr>
-                        <td>Total</td>
+                        <th scope="row">Total</th>
                         <td>24:00</td>
                         <td>24:00</td>
                         <td>24:00</td>
@@ -383,25 +382,25 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>FNUOD depuis 1974</td>
+                        <th scope="row">FNUOD<br />depuis 1974</th>
                         <td>Force des Nations Unies chargée d'observer le désengagement au Moyen-Orient (hauteurs du Golan syrien)</td>
                         <td>4</td>
                         <td>Militaires</td>
                     </tr>
                     <tr>
-                        <td>FINUL depuis 1978</td>
+                        <th scope="row">FINUL<br />depuis 1978</th>
                         <td>Force intérimaire des Nations Unies au Liban</td>
                         <td>117</td>
                         <td>Unités de commandement et de contrôle</td>
                     </tr>
                     <tr>
-                        <td>UNGOMAP 1988-1990</td>
+                        <th scope="row">UNGOMAP<br />1988-1990</th>
                         <td>Mission de bons offices des Nations Unies en Afghanistan et au Pakistan</td>
                         <td>5</td>
                         <td>Observateurs militaires</td>
                     </tr>
                     <tr>
-                        <td>GOMNUII 1988-1991</td>
+                        <th scope="row">GOMNUII<br />1988-1991</th>
                         <td>Groupe d'observateurs militaires de l'ONU pour l'Iran et l'Irak</td>
                         <td>525</td>
                         <td>Observateurs militaires<br />
@@ -409,13 +408,13 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>GANUPT 1989-1990</td>
+                        <th scope="row">GANUPT<br />1989-1990</th>
                         <td>Groupe d'assistance des Nations Unies pour la période de transition en Namibie</td>
                         <td>301</td>
                         <td>Unité de soutien logistique</td>
                     </tr>
                     <tr>
-                        <td>ONUCA 1989-1992</td>
+                        <th scope="row">ONUCA<br />1989-1992</th>
                         <td>Groupe d'observateurs de l'ONU en Amérique centrale</td>
                         <td>174</td>
                         <td>Observateurs militaires</td>
@@ -472,7 +471,7 @@
 
         <div class="centrer" style="max-width: 80%;">
             <p><img style="max-width: 100%;padding:1em;border: .1em solid" src="image/Image1457.png" alt="tableau" /></p>
-                <p class="Normal">[BEAUMARCHAIS, <cite class="oeuvre">Le Barbier de Séville</cite>, Paris, Larousse, 1998]</p>
+                <p>[BEAUMARCHAIS, <cite>Le Barbier de Séville</cite>, Paris, Larousse, 1998]</p>
         </div>
 
         <div class="divBraille">
@@ -586,18 +585,18 @@
         <table id="table013" class="tabBraille">
             <thead>
                 <tr>
-                    <th>Orientations</th>
-                    <th>Choix stratégiques</th>
-                    <th>Principales mesures</th>
+                    <th scope="col">Orientations</th>
+                    <th scope="col">Choix stratégiques</th>
+                    <th scope="col">Principales mesures</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td rowspan="3">
+                    <th rowspan="3" scope="rowgroup">
                         <p>
                             Améliorer la santé et le bien-être des jeunes
                         </p>
-                    </td>
+                    </th>
                     <td>Favoriser le développement d'habiletés personnelles et sociales ainsi que l'acquisition de saines habitudes de vie</td>
                     <td>
 
@@ -637,11 +636,11 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="Aucun-style-de-tableau CellOverride-19 _idGenCellOverride-2" rowspan="2">
+                    <th rowspan="2" scope="rowgroup">
                         <p>
                             Favoriser la réussite éducative des jeunes
                         </p>
-                    </td>
+                    </th>
                     <td>Mieux prévenir le décrochage scolaire</td>
                     <td>
 
@@ -736,7 +735,7 @@
             </p>
             <p class="BrailleDirectpara">
                 &#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;⠎⠑⠝⠞⠊⠝⠑⠇⠇⠑⠎</p>
-            <p class="BrailleDirectpara"><span id="page105" title="105" epub:type="pagebre0ak" role="doc-pagebreak"></span>&#x2800;&#x2800;&#x2800;&#x2800;⠪⠕&#x2800;⠨⠊⠍⠏⠇⠁⠝⠞⠑⠗&#x2800;⠙⠑⠎&#x2800;⠿⠟⠥⠊⠏⠑⠎</p>
+            <p class="BrailleDirectpara"><span id="page105" title="105" epub:type="pagebreak" role="doc-pagebreak"></span>&#x2800;&#x2800;&#x2800;&#x2800;⠪⠕&#x2800;⠨⠊⠍⠏⠇⠁⠝⠞⠑⠗&#x2800;⠙⠑⠎&#x2800;⠿⠟⠥⠊⠏⠑⠎</p>
             <p class="BrailleDirectpara">
                 &#x2800;&#x2800;&#x2800;&#x2800;&#x2800;&#x2800;⠍⠥⠇⠞⠊⠙⠊⠎⠉⠊⠏⠇⠊⠝⠁⠊⠗⠑⠎&#x2800;⠑⠝</p>
             <p class="BrailleDirectpara">
@@ -830,8 +829,7 @@
 
 
 
-    <script type="text/javascript" src="../js/localforage.min.js"></script>
-    <script type="text/javascript" src="../js/appliquerStyles.js"></script>
+
 </body>
 
 </html>
